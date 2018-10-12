@@ -1,0 +1,70 @@
+﻿<script id="AdvancePaymentTemplate" type="text/mustache-template">
+<div id="jqt" data-role="page" class="wrapper">
+    {{>header}}
+  <div data-role="content" class="pt3m">
+      <div class="Pre-sum">
+         <h1>预存款余额 <span class="fd-pale">￥<b id="LastOperateMoney"></b></span></h1>
+         <div class="btn clearfix">
+             <a href="/#page/MyCash" class="btn1">提现</a>
+             <a href="/#page/MyRecharge" class="btn2">充值</a>
+         </div>
+     </div>
+     <div class="Pre-deposit">
+         <ul class="clearfix" id="MyAdvancePaymentList"></ul>
+     </div>
+       <nav class="nav-page" style=" margin-bottom:10%;">
+  </div>
+  
+</div>
+</script>
+
+<script id="MyAdvancePaymentModel" type="text/mustache-template">
+     {{#MyAdvancePaymentModel}}
+             <li>
+              <span class="name">{{Memo}}</span>
+              <span class="val">{{OperateMoney}}</span>
+              <span class="time">{{Date}}</span>
+            </li>
+     {{/MyAdvancePaymentModel}}
+</script>
+
+<script type="text/mustache-template" id="EmptyScorceDetialTemplate">
+    <div class="ordinary">
+        <h2><img src="/Content/images/sntee.png" /></h2>
+        <p>对不起，你还没有预存款！</p>
+    </div>
+</script>
+
+
+
+
+@*<script id="AdvancePaymentTemplate" type="text/mustache-template">
+<div id="jqt" data-role="page" class="wrapper">
+    {{>header}}
+  <div data-role="content" class="pt3m">
+    <div class="InteDetail" id="MyAdvancePaymentList"></div>
+    <nav class="nav-page" style=" margin-bottom:10%;">
+  </div>
+  
+</div>
+    </script>
+
+<script id="MyAdvancePaymentModel" type="text/mustache-template">
+     {{#MyAdvancePaymentModel}}
+             <div class="itm clearfix">
+                    <div class="dt">
+                        <h4>{{Memo}}</h4>
+                        <p>{{Date}}</p>
+                    </div>
+                <div class="dd">{{OperateMoney}}</div>
+              </div>
+     {{/MyAdvancePaymentModel}}
+</script>*@
+
+@*<script type="text/mustache-template" id="EmptyScorceDetialTemplate">
+    <div class="ordinary">
+        <h2><img src="/Content/images/sntee.png" /></h2>
+        <p>对不起，你还没有预存款！</p>
+    </div>
+</script>*@
+

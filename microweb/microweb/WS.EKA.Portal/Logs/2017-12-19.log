@@ -1,0 +1,60 @@
+2017-12-19 12:25:18.6638 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-19 12:28:36.2970 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-12-19 12:28:42.6147 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind Error 接口异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind(String memLoginID) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 156
+2017-12-19 12:28:42.6547 <no type>.CallSite.Target Info 微信OpenID:
+2017-12-19 16:59:36.2908 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind Error 接口异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind(String memLoginID) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 156
+2017-12-19 16:59:36.3358 <no type>.CallSite.Target Info 微信OpenID:
+2017-12-19 17:38:50.9750 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-19 18:35:46.3002 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志开始----------------------------------------
+2017-12-19 18:35:46.3172 WS.EKA.Portal.wxpay.pay.Page_Load Info appid:wx256bc347404257df
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info body:ORDER201712190035484
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info mch_id:1480613602
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info nonce_str:B4288D9C0EC0A1841B3B3728321E7088
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info openid:null
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info notify_url:http://fwx.6868xp.com/PayRetrun/ZFPay/wxpay/WeiXinNotifyUrl.aspx
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info out_trade_no:201712190035484
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info spbill_create_ip:::1
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info total_fee:360900
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info trade_type:JSAPI
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:FAIL
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:openid is invalid
+2017-12-19 18:35:46.3242 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志结束----------------------------------------
+2017-12-19 18:36:56.0511 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志开始----------------------------------------
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info appid:wx256bc347404257df
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info body:ORDER201712190035484
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info mch_id:1480613602
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info nonce_str:8D6DC35E506FC23349DD10EE68DABB64
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info openid:null
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info notify_url:http://fwx.6868xp.com/PayRetrun/ZFPay/wxpay/WeiXinNotifyUrl.aspx
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info out_trade_no:201712190035484
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info spbill_create_ip:::1
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info total_fee:360900
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info trade_type:JSAPI
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:FAIL
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:openid is invalid
+2017-12-19 18:36:56.0741 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志结束----------------------------------------

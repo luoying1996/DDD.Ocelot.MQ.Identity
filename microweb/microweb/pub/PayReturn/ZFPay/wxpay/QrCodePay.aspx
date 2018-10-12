@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="QrCodePay.aspx.cs" Inherits="WS.EKA.Portal.wxpay.QrCodePay" %>

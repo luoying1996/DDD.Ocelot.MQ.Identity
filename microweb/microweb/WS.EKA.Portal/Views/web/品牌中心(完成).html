@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width" />
+<title>品牌中心</title>
+<link href="../../Content/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../../Content/css/index.css" rel="stylesheet" type="text/css" />
+<script src="../../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="jqt" data-role="page" class="wrapper">
+ <div id="header">
+     <div class="head">
+        <h1>品牌中心</h1>
+        <a class="H-back" href="javascript:history.back(-1);">返回</a>
+     </div>
+  </div>
+  
+  <div data-role="content" class="pt3m">
+     <ul class="E-Tab flex">
+          <li class="flex_div cur"><a href="javascript:;">推荐大牌</a></li>
+          <li class="flex_div"><a href="javascript:;">全部品牌</a></li>
+       </ul>
+       <div class="Brand">
+          <ul class="cur clearfix">
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/product01.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/adves01.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+          </ul>
+          <ul class="clearfix" style="display:none;">
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+             <li><a href="#"><p class="img"><img src="../../ImgUpload/brand.jpg"></p><p>UNIQLO</p></a></li>
+          </ul>
+       </div>
+  </div>
+  
+  
+</div>
+<script type="text/javascript">
+  $(function(){
+    $(".E-Tab li").click(function(){
+       $(this).addClass("cur").siblings().removeClass("cur");
+	   $(this).parent().next().children().hide();
+	   $(this).parent().next().children().eq($(this).index()).show();
+	})
+  })
+</script>
+</body>
+</html>

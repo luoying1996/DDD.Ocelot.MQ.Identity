@@ -1,0 +1,65 @@
+2017-10-29 11:28:51.0790 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-29 11:38:28.5650 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-29 11:38:28.8873 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-10-29 15:24:08.1433 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-10-29 15:24:08.1433 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 58
+2017-10-29 15:24:08.1433 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-10-29 15:24:08.1433 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 58
+2017-10-29 15:24:08.1433 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 58
+2017-10-29 15:24:54.6395 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind Error 接口异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 156
+2017-10-29 15:24:54.6707 <no type>.CallSite.Target Info 微信OpenID:
+2017-10-29 15:25:07.1445 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-29 15:27:24.2169 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-29 19:57:53.0757 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-29 19:57:53.1226 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xIv4se1pT3xFCOTjMjQTyHQ
+2017-10-29 19:57:53.1226 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-29 19:57:53.1226 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-29 19:57:58.8552 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-29 19:58:02.3865 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-29 20:00:00.6235 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-29 20:00:00.6235 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xIv4se1pT3xFCOTjMjQTyHQ
+2017-10-29 20:00:00.6235 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-29 20:00:00.6235 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-29 20:00:00.6392 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-29 20:00:00.9360 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-29 20:00:03.1080 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-29 20:00:04.3581 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误

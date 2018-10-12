@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width" />
+<title>类目-列表</title>
+<link href="../../Content/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../../Content/css/index.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../../Content/css/reset.css" type="text/css" />
+<!--必要样式-->
+<link rel="stylesheet" href="../../Content/css/pullToRefresh.css" type="text/css" />
+<script src="../../Scripts/jquery-1.7.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../Scripts/iscroll.js"></script>
+<script type="text/javascript" src="../../Scripts/pullToRefresh.mini.js"></script>
+
+   
+</head>
+
+<body>
+<div id="jqt" data-role="page" class="wrapper">
+ <div id="header">
+     <div class="head">
+        <h1>女装</h1>
+        <a class="H-back" href="javascript:history.back(-1);">返回</a>
+        <a class="H-screen" href="javascript:;">筛选</a>
+     </div>
+  </div>
+  
+  <div data-role="content" class="pt3m">
+     <ul class="flex promotRank" id="ProductListOrder">
+      <li class="flex_div cur" ordertype="ModifyTime"><a>综合</a></li>
+      <li class="flex_div" ordertype="SaleNumber"><a>销量</a></li>
+      <li class="flex_div" ordertype="Price"><a>价格</a></li>	
+      <li class="flex_div "><a><em class="smallimg"></em>列表</a></li>	
+    </ul>
+    
+      <div class="Smalllist" id="wrapper">
+          <ul class="clearfix">
+              <li class="clearfix">
+                  <a href="#">
+                      <div class="img"><span><img src="../../ImgUpload/product04.jpg" /></span></div>
+                      <div class="text">
+                          <h4>本田赛车服裤子套装冬摩托车衣服夹克机车衣</h4>
+                          <p class="pri">¥1000070.00</p>
+                          <p class="num">销量 100</p>
+                      </div>
+                  </a>
+              </li>
+              <li class="clearfix">
+                  <a href="#">
+                      <div class="img"><span><img src="../../ImgUpload/product04.jpg" /></span></div>
+                      <div class="text">
+                          <h4>本田赛车服裤子套装冬摩托车衣服夹克机车衣</h4>
+                          <p class="pri">¥1000070.00</p>
+                          <p class="num">销量 100</p>
+                      </div>
+                  </a>
+              </li>
+              <li class="clearfix">
+                  <a href="#">
+                      <div class="img"><span><img src="../../ImgUpload/product04.jpg" /></span></div>
+                      <div class="text">
+                          <h4>本田赛车服裤子套装冬摩托车衣服夹克机车衣</h4>
+                          <p class="pri">¥1000070.00</p>
+                          <p class="num">销量 100</p>
+                      </div>
+                  </a>
+              </li>
+              <li class="clearfix">
+                  <a href="#">
+                      <div class="img"><span><img src="../../ImgUpload/product04.jpg" /></span></div>
+                      <div class="text">
+                          <h4>本田赛车服裤子套装冬摩托车衣服夹克机车衣</h4>
+                          <p class="pri">¥1000070.00</p>
+                          <p class="num">销量 100</p>
+                      </div>
+                  </a>
+              </li>
+          </ul>
+
+      </div>
+
+    
+  </div>
+  
+  <!--筛选弹框-->
+  <div id="ScreenPop">
+      <div class="popbg" style="display:none;"></div>
+      <div id="ScreenPopmain" class="ScreenBox">
+         <div class="ScreenHead">
+            <h3>筛选</h3>
+            <a class="TextL" href="#">取消</a>
+            <a class="TextR" href="#">确定</a>
+         </div>
+         <div class="ScreenCon">
+           <ul class="Smainlist clearfix">
+              <li>
+                <a id="J-sjg" href="javascript:;">
+                <span class="fd-right">全部</span>
+                <b>价格</b>
+               </a>
+             </li>
+             <li>
+                <a id="J-sfl" href="javascript:;">
+                <span class="fd-right">全部</span>
+                <b>分类</b>
+               </a>
+             </li>
+             <li>
+                <a id="J-spp" href="javascript:;">
+                <span class="fd-right">全部</span>
+                <b>品牌</b>
+               </a>
+             </li>
+           </ul>
+         </div>
+      </div>
+      <!--筛选价格弹框-->
+      <div id="ScreenPopJG" class="ScreenBox">
+             <div class="ScreenHead">
+                <h3>价格</h3>
+                <a class="ArrowL" href="#"></a>
+                <a class="TextR" href="#">确定</a>
+             </div>
+             <div class="ScreenCon">
+               <ul class="Ssublist">
+                  <li class="cur">
+                     <a href="#"><b>全部</b></a>
+                  </li>
+                  <li>
+                     <a href="#"><b>0-299</b></a>
+                  </li>
+                  <li>
+                     <a href="#"><b>300-499</b></a>
+                  </li>
+                  <li>
+                     <a href="#"><b>500-799</b></a>
+                  </li>
+                  <li>
+                     <a href="#"><b>800-1399</b></a>
+                  </li>
+                  <li>
+                     <a href="#"><b>1400-2699</b></a>
+                  </li>
+                  <li>
+                     <a href="#"><b>2700-41699</b></a>
+                  </li>
+                  <li>
+                    <input class="inptxt" type="text" placeholder="最低价格" /> - <input class="inptxt" type="text" placeholder="最高价格" />
+                  </li>
+              </ul>
+             </div>
+        </div>
+        
+      <!--筛选分类弹框-->
+      <div id="ScreenPopFL" class="ScreenBox">
+             <div class="ScreenHead">
+                <h3>全部分类</h3>
+                <a class="ArrowL" href="#"></a>
+                <a class="TextR" href="#">确定</a>
+             </div>
+             <div class="ScreenCon">
+               <ul class="Shop-classify">
+                 <li><div class="dt"><a href="#">手机数码</a><em></em></div>
+                     <div class="dd">
+                       <dl class="clearfix">
+                          <dd><a href="#">平板电脑</a></dd>
+                          <dd><a href="#">数码相机</a></dd>
+                          <dd><a href="#">手机配件</a></dd>
+                       </dl>
+                     </div>
+                 </li>
+                 <li><div class="dt"><a href="#">服饰内衣</a><em></em></div>
+                     <div class="dd">
+                       <dl class="clearfix">
+                          <dd><a href="#">精美女装</a></dd>
+                          <dd><a href="#">商务男装</a></dd>
+                       </dl>
+                     </div>
+                 </li>
+                 <li><div class="dt"><a href="#">家用电器</a><em></em></div>
+                     <div class="dd">
+                       <dl class="clearfix">
+                          <dd><a href="#">大家电</a></dd>
+                          <dd><a href="#">小家电</a></dd>
+                       </dl>
+                     </div>
+                 </li>
+                 <li><div class="dt"><a href="#">日用百货</a><em></em></div> </li>
+                 <li><div class="dt"><a href="#">美容美妆</a><em></em></div> </li>
+                 <li><div class="dt"><a href="#">食品保健</a><em></em></div> </li>
+                 <li><div class="dt"><a href="#">图书音像</a><em></em></div> </li>
+               </ul>
+             </div>
+        </div>
+      
+      
+  </div>
+  
+  
+  
+</div>
+<script type="text/javascript">
+ $(function(){
+   //
+   $(".H-screen").click(function(){
+	   $(".popbg").show();
+	   if($("#ScreenPopmain").width()>0){
+		  $("#ScreenPopmain").animate({ "width": "0"}, 500 );
+		}else{
+			$("#ScreenPopmain").animate({ "width": "80%"}, 500 );
+		}
+	})	
+	$("#J-sjg").click(function(){
+	  if($("#ScreenPopJG").width()>0){
+		  $("#ScreenPopJG").animate({ "width": "0"}, 500 );
+		}else{
+			$("#ScreenPopJG").animate({ "width": "80%"}, 500 );
+		}
+	})
+	$(".ScreenHead a.TextL").click(function(){
+	  $(this).parent().parent().animate({ "width": "0"}, 500 );
+	  $(".popbg").hide();
+	})
+	
+	$(".ArrowL").click(function(){
+	  $(this).parent().parent().animate({ "width": "0"}, 500 );
+	})
+	 
+    $(".Ssublist li").click(function(){
+	   $(this).addClass("cur").siblings().removeClass("cur");
+	   $(this).parent().parent().parent().animate({ "width": "0"}, 500 );
+	})
+   //筛选-分类
+	$(".Shop-classify li em").click(function(){
+	   $(this).parent().parent().addClass("on");
+	   $(this).parent().parent().siblings().removeClass("on");
+	})
+	$(".Shop-classify .dd dd").click(function(){
+	   $(this).addClass("cur").siblings().removeClass("cur");
+	})
+ })
+</script>
+    <script type="text/javascript">
+    refresher.init({
+        id: "wrapper",//<------------------------------------------------------------------------------------┐
+        pullDownAction: Refresh,
+        pullUpAction: Load
+    });
+    function Refresh() {
+        setTimeout(function () {	// <-- Simulate network congestion, remove setTimeout from production!
+            var el, li, i;
+            el = document.querySelector("#wrapper ul");
+            //这里写你的刷新代码
+            document.getElementById("wrapper").querySelector(".pullDownIcon").style.display = "none";
+            document.getElementById("wrapper").querySelector(".pullDownLabel").innerHTML = "<img src='img/ok.png'/>刷新成功";
+            setTimeout(function () {
+                wrapper.refresh();
+                document.getElementById("wrapper").querySelector(".pullDownLabel").innerHTML = "";
+            }, 1000);//模拟qq下拉刷新显示成功效果
+            /****remember to refresh after  action completed！ ---yourId.refresh(); ----| ****/
+        }, 3000);
+    }
+    function Load() {
+        setTimeout(function () {// <-- Simulate network congestion, remove setTimeout from production!
+            var el, li, i;
+            el = document.querySelector("#wrapper ul");
+            for (i = 0; i < 2; i++) {
+                li = document.createElement('li');
+                li.innerHTML = "123123"
+                el.appendChild(li, el.childNodes[0]);
+            }
+            wrapper.refresh();/****remember to refresh after action completed！！！   ---id.refresh(); --- ****/
+        }, 3000);
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿<script type="text/mustache-template" id="GenerateOrderTemplate">
+    {{>header}}
+
+    <div data-role="content" class="pt3m">
+        <div data-role="controlgroup" class="mb7m">
+            <article>
+                <section>
+                    <div class="white mt5m orderDail_inf">
+                        <div class="orderDail_bord orderDail_text " id="orderinfodetaildiv">
+
+                        </div>
+                    </div>
+                    <div class="white mt5m orderDail_inf">
+                        <dl class="flex fill_mold">
+                            <dt>支付方式</dt>
+                            <dd class="flex_div">
+                                <select id="MakePayment"></select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="mt1m pdrd">
+                        <a onclick="addPayment()" class="pink field_btn">确认支付</a>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
+
+    {{>innerFooter}}
+</script>
+
+
+<script type="text/mustache-template" id="GenerateOrderSuccessTemplate">
+    {{#Orderinfo}}
+
+    <dl class="flex"><dt>订单号：</dt><dd class="fd-msy fd-black">{{OrderNumber}}</dd></dl>
+    <dl class="flex"><dt>订单金额：</dt><dd class="fd-msy fd-pink fd_thick">￥{{ShouldPayPrice}}</dd></dl>
+    <input type="hidden" id="txt_OrderNumber" value="{{OrderNumber}}" />
+    <input type="hidden" id="txt_ShouldPayPrice" value="{{ShouldPayPrice}}" />
+    <input type="hidden" id="txt_OrderInfoGuid" value="{{Guid}}" />
+
+    {{/Orderinfo}}
+</script>
+
+<script type="text/mustache-template" id="GenerateOrderErrorTemplate">
+    <div data-role="content" class="bs-conten cart_form">
+        <aside class="payscde">
+            <div class="ordergent">
+                <figure>
+                    <figcaption class="losttip">订单失效！</figcaption>
+                    <p>对不起！您的订单失效，您可以选择重新下单来 购买您想要的商品！</p>
+                </figure>
+            </div>
+        </aside>
+
+        <section class="order-tose">
+            <ul>
+                <li class="domcart"><a href="/">返回首页<i></i></a></li>
+            </ul>
+        </section>
+    </div>
+</script>
+
+<script type="text/mustache-template" id="MakePaymentTemplate">
+    {{#Data}}
+    <option guid="{{Guid}}" value="{{PaymentType}}">{{NAME}}</option>
+    {{/Data}}
+</script>

@@ -1,0 +1,721 @@
+2018-01-07 00:00:20.6041 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Error 接口[api/getWeixinShopConfigList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList(String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 525
+2018-01-07 00:00:20.6041 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList Error 接口[api/GetAnnouncementList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList(String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2519
+2018-01-07 00:00:52.6406 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 00:02:06.8259 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 00:04:07.9562 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 00:11:11.1556 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 00:13:30.8919 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory Error 接口[api/productcatagory/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory(Int32 id, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2569
+2018-01-07 00:13:30.8704 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 00:13:30.8474 WS.EKA.Portal.Helpers.CommonRequest.GetDefaultADList Error 接口[api/GetDefaultAd/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetDefaultADList(Int32 banerPostion, Int32 W_Type, String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 4271
+2018-01-07 00:13:30.9084 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Error 接口[api/getWeixinShopConfigList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList(String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 525
+2018-01-07 00:13:30.8474 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList Error 接口[api/GetAnnouncementList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList(String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2519
+2018-01-07 00:38:49.0856 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 00:38:52.2455 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Info 接口[api/product2/type/]返回值有误
+2018-01-07 00:39:52.2795 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 00:40:41.5045 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Info 接口[api/product2/type/]返回值有误
+2018-01-07 00:41:41.9850 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 01:08:54.1911 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 13:38:31.1811 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 13:38:31.1967 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Error 接口[api/getWeixinShopConfigList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList(String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 525
+2018-01-07 13:38:31.1811 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 13:38:32.1332 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList Error 接口[api/GetAnnouncementList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList(String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2519
+2018-01-07 13:38:33.4178 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 13:38:33.4278 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 13:38:36.5945 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory Error 接口[api/productcatagory/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory(Int32 id, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2569
+2018-01-07 13:38:36.6276 WS.EKA.Portal.Helpers.CommonRequest.GetDefaultADList Error 接口[api/GetDefaultAd/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetDefaultADList(Int32 banerPostion, Int32 W_Type, String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 4271
+2018-01-07 13:50:16.6869 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 13:59:46.1089 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 14:10:37.5146 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 14:10:37.5146 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList Error 接口[api/GetAnnouncementList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList(String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2519
+2018-01-07 14:10:37.5146 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 14:10:39.5463 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 14:10:39.5578 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 14:10:39.6293 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Error 接口[api/getWeixinShopConfigList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList(String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 525
+2018-01-07 14:10:40.1829 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory Error 接口[api/productcatagory/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory(Int32 id, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2569
+2018-01-07 14:10:42.2917 WS.EKA.Portal.Helpers.CommonRequest.GetDefaultADList Error 接口[api/GetDefaultAd/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetDefaultADList(Int32 banerPostion, Int32 W_Type, String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 4271
+2018-01-07 14:13:23.2216 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Error 接口[api/getWeixinShopConfigList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList(String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 525
+2018-01-07 14:13:23.2216 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList Error 接口[api/GetAnnouncementList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList(String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2519
+2018-01-07 14:13:44.8337 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory Error 接口[api/productcatagory/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory(Int32 id, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2569
+2018-01-07 15:21:45.6221 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 15:21:45.6221 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 15:21:45.6221 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 15:21:45.6221 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 15:21:46.0389 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Error 接口[api/getWeixinShopConfigList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList(String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 525
+2018-01-07 15:21:46.8899 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList Error 接口[api/GetAnnouncementList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList(String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2519
+2018-01-07 15:23:25.6791 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory Error 接口[api/productcatagory/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 请. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiProductCatagory(Int32 id, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2569
+2018-01-07 15:23:25.7858 WS.EKA.Portal.Helpers.CommonRequest.GetDefaultADList Error 接口[api/GetDefaultAd/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 请. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetDefaultADList(Int32 banerPostion, Int32 W_Type, String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 4271
+2018-01-07 15:23:28.9112 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 请. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 15:23:28.9112 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 请. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 15:23:28.9112 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 请. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 15:23:29.7173 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Error 接口[api/product2/type/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 请. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType(Int32 type, Int32 pageIndex, Int32 pageCount, String sorts, Boolean isASC, String agentID, Boolean sbool) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2683
+2018-01-07 15:23:30.7154 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList Error 接口[api/GetAnnouncementList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 请. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.GetAnnouncementList(String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 2519
+2018-01-07 15:23:31.7148 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Error 接口[api/getWeixinShopConfigList/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 请. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList(String shopID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 525
+2018-01-07 15:23:42.2975 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 15:23:42.2975 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 15:24:39.3353 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 15:29:39.2976 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 15:34:10.7321 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 15:42:23.9218 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 17:58:17.8861 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:01:11.7558 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:01:18.2487 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:02:26.1948 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:04:45.7236 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:05:54.8068 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:12:05.1100 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:15:20.4987 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:21:21.6073 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:22:20.2865 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:22:27.9213 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:22:45.2183 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:24:58.5303 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:27:05.9303 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:46:24.8592 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:47:33.2194 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:49:21.5273 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 18:58:43.1706 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 19:01:29.4283 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 19:06:48.2606 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 19:07:10.5061 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 19:07:28.1859 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 19:10:23.3845 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:23:41.8603 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:23:51.3766 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:24:08.2253 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:28:02.7275 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:29:20.2363 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:29:43.6042 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:32:49.4069 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:33:30.9373 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:39:57.4873 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:40:47.2475 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:40:51.6838 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:40:58.2838 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:42:29.2364 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:43:14.6220 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:44:32.8561 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:44:50.8101 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:49:41.7104 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:50:23.3324 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:50:45.2628 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:51:55.4358 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:53:30.1218 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:54:10.3675 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:54:13.7848 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:55:05.5273 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:57:16.0990 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:57:20.4144 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 21:59:41.5406 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 22:08:31.7078 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 22:08:43.2863 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 22:19:48.6440 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 22:23:20.1833 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 22:24:08.4490 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 22:50:32.0775 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 22:50:53.2429 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 75
+2018-01-07 22:51:07.2456 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 75
+2018-01-07 22:53:23.7351 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 75
+2018-01-07 22:54:18.4034 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 69
+2018-01-07 22:54:49.2796 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 75
+2018-01-07 23:22:31.7864 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 23:26:23.9222 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID, String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3869
+2018-01-07 23:27:49.0602 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode Error 接口[api/GetMobileCode/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode(String mobile) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3827
+2018-01-07 23:27:58.5287 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID, String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3869
+2018-01-07 23:28:06.4286 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode Error 接口[api/GetMobileCode/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode(String mobile) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3827
+2018-01-07 23:28:13.7169 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID, String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3869
+2018-01-07 23:28:21.5806 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode Error 接口[api/GetMobileCode/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode(String mobile) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3827
+2018-01-07 23:28:31.3548 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID, String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3869
+2018-01-07 23:28:36.9416 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode Error 接口[api/GetMobileCode/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode(String mobile) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3827
+2018-01-07 23:28:46.4567 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID, String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3869
+2018-01-07 23:28:49.5636 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode Error 接口[api/GetMobileCode/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode(String mobile) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3827
+2018-01-07 23:28:59.6347 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID, String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3869
+2018-01-07 23:29:01.6848 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode Error 接口[api/GetMobileCode/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode(String mobile) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3827
+2018-01-07 23:29:05.0450 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID, String AgentID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3869
+2018-01-07 23:29:07.1225 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode Error 接口[api/GetMobileCode/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode(String mobile) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3827
+2018-01-07 23:30:19.2626 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-01-07 23:30:38.9442 WS.EKA.Portal.Helpers.CommonRequest.ApiGetProductListByType Info 接口[api/product2/type/]返回值有误
+2018-01-07 23:47:34.3390 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountRegist Error 接口[api/accountregist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountRegist(Account account) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 378
+2018-01-07 23:47:42.9929 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind Error 接口异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind(String memLoginID) 位置 F:\E-drive-631726\公司项目\兼职项目\分销商\svn\前端\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 159
+2018-01-07 23:47:43.0450 <no type>.CallSite.Target Info 微信OpenID:

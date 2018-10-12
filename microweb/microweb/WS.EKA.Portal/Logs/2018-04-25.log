@@ -1,0 +1,67 @@
+2018-04-25 10:55:46.4062 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 10:56:20.5891 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 10:56:55.8959 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:01:57.4211 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:02:03.5256 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:02:08.2909 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:02:16.1900 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:04:16.8619 WS.EKA.Portal.Helpers.CommonRequest.ApiOrderShipment Error 接口[api/order/UpdateShipmentStatus/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiOrderShipment(String guid) 位置 E:\microweb\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 1938
+2018-04-25 11:27:16.0768 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:35:42.3157 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:36:04.1954 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:36:53.3578 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:37:02.4230 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:37:16.7709 WS.EKA.Portal.Helpers.CommonRequest.ApiOrderShipment Error 接口[api/order/UpdateShipmentStatus/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiOrderShipment(String guid) 位置 E:\microweb\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 1938
+2018-04-25 11:37:24.5550 WS.EKA.Portal.Helpers.CommonRequest.ApiExpressInfo Error 接口[api/GetExpressInfo/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiExpressInfo(String orderNumber) 位置 E:\microweb\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3438
+2018-04-25 11:44:54.5551 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:51:17.2355 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:54:10.9853 WS.EKA.Portal.Helpers.CommonRequest.ApiOrderShipment Error 接口[api/order/UpdateShipmentStatus/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiOrderShipment(String guid) 位置 E:\microweb\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 1938
+2018-04-25 11:55:15.7888 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 11:56:17.5976 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 12:03:15.7016 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 12:03:37.1209 WS.EKA.Portal.Helpers.CommonRequest.ApiDispatchModelListByCode Info 接口[api/dispatchmodelistbycode/]返回值有误
+2018-04-25 12:03:49.5852 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 12:04:51.7463 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 12:06:33.7666 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 12:07:28.2327 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2018-04-25 12:18:41.7191 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误

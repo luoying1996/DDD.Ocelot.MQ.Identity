@@ -1,0 +1,114 @@
+﻿<script type="text/mustache-template" id="OrderMakeTemplate">
+    {{>header}}
+
+    <div data-role="content" class="pad01">
+        <div data-role="controlgroup" class="FillOrder">
+            <article>
+                <section>
+                   <div class="E-Box">
+                        <div class="Item" id="dl_MemberAddress">
+
+                        </div>
+                    </div> 
+                   <ul class="Myorderlist clearfix">
+                        <li id="li_OrderProduct">
+
+                        </li>
+                    </ul>
+                </section>
+                <section>
+
+                    <div class="white E-Box">
+
+                        <dl class="flex fill_mold">
+                            <dt>配送方式</dt>
+                            <dd class="flex_div">
+                                <select id="select_Dispatchmode" onchange="MakeOrderCaculatePrice()" class="exprePay"></select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="pjarea white">
+                        <textarea rows="3" placeholder="给我们留言" class="fill_tarea" id="treabeizu"></textarea>
+                    </div>
+
+
+                    <div class="E-Box" id="div_OrderPirce">
+                        
+
+                    </div>
+                    <div class="fixbtn">
+                        <div class="btnbox">
+                        <a onclick="GetOrderNumber()" class="orange field_btn">提交订单</a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
+
+    <input type="hidden" id="cartJson" />
+    <input type="hidden" id="CartId" />
+    
+</script>
+
+
+<script type="text/mustache-template" id="OrderProductTemplate">
+    {{#Data}}
+
+    <div class="List">
+        <div class="img"><span><img src="{{OriginalImge}}"></span></div>
+        <div class="info">
+            <h2>{{Name}}</h2>
+            <p><span class="pri">￥{{BuyPrice}}</span> <span class="num">x{{BuyNumber}}</span></p>
+        </div>
+    </div>
+    <input type="hidden" name="txt_BuyPrice" value="{{BuyPrice}}" />
+    <input type="hidden" name="txt_BuyNumber" value="{{BuyNumber}}" />
+    <input type="hidden" name="txt_MarketPrice" value="{{MarketPrice}}" />
+    {{/Data}}
+    <div class="Obtn">小计：<b class="fd-pale">￥<span id="span_AllProductPrice">0</span></b></div>
+</script>
+
+
+<script type="text/mustache-template" id="MemberAddressShowTemplate">
+    {{#Data}}
+
+    <a href="/#page/AddressList?1">
+        <p><span>{{NAME}}</span> {{Mobile}}</p>
+        <p class="address">{{Address}}</p>
+    </a>
+
+            <input type="hidden" id="MemberAddressId" value="{{Guid}}" />
+            <input type="hidden" id="MemberAddressCode" value="{{Code}}" />
+            <input type="hidden" id="MemberAddressName" value="{{NAME}}" />
+            <input type="hidden" id="MemberAddressAddress" value="{{Address}}" />
+            <input type="hidden" id="MemberAddressMobile" value="{{Mobile}}" />
+
+
+    {{/Data}}
+</script>
+
+<script type="text/mustache-template" id="NoMemberAddressShowTemplate">
+
+    <a href="/#page/AppendAddress?1">
+        添加收货地址
+    </a>
+
+</script>
+
+<script type="text/mustache-template" id="DispatchmodeTemplate">
+    {{#Data}}
+    <option value="{{Guid}}">{{NAME}}</option>
+    {{/Data}}
+</script>
+
+<script type="text/mustache-template" id="OrderPirceTemplate">
+    <ul class="OrderVal">
+                    
+    {{#Data}}
+    <li><b>商品金额：</b><span class="fd-gray2">￥{{ProductPrice}}</span></li>
+    <li><b>配送费用：</b><span class="fd-gray2">+￥{{DispatchPrice}}</span></li>
+    <li><b>应付总额：</b><span class="fd-pale">￥{{ShouldPayPrice}}</span></li>
+    {{/Data}}
+    </ul>
+</script>

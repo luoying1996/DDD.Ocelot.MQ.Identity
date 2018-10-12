@@ -1,0 +1,29 @@
+﻿<script type="text/mustache-template" id="MyCommissionListTemplate">
+    {{>header}}
+  <div data-role="content" class="pad01">
+        <div data-role="controlgroup" class="mb7m">
+            <article>
+                <section>
+                    <div class="E-Box">
+                        <div class="Item">
+                            <input type="text" placeholder="邀请码" id="txt_yqocde" />
+                        </div>
+                        <div class="fselect clearfix">
+                           <div class="farea fd-left"><select id="select_province" onchange="GetCity(); EditNewAddress();"><option value="">请选择省份</option></select><em></em></div>
+                           <div class="farea fd-right"><select id="select_city" onchange="GetArea(); EditNewAddress();"><option value="">请选择城市</option></select><em></em></div>
+                           <div class="farea fd-left"><select id="select_area" onchange="EditNewAddress();"><option value=" ">请选择地区</option></select><em></em></div>
+                       </div>
+                    </div>
+
+                    <div class="fixbtn">
+                        <div class="btnbox">
+                           <a class="orange field_btn" onclick="AppendManageAddress()">提交</a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
+    <input type="hidden" id="txt_memberAddressId" value="" />
+ 
+</script>

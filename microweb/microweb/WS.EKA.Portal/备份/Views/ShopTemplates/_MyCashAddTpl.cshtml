@@ -1,0 +1,46 @@
+﻿<script type="text/mustache-template" id="MyCashAdd">
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+
+
+        <div data-role="content" class="pt3m Withdraw">
+            <div class="E-Box mt00">
+                <div class="Item clearfix">
+                    <label>开户人</label>
+                 
+                    <div class="dd"><input type="text" value="" id="MyCashAddName" maxlength="16"/></div>
+                </div>
+            </div>
+            <div class="E-Box">
+                <div class="Item clearfix">
+                    <label>开户银行</label>
+                    <select id="select_CashType" class="exprePay" style="width:75%;height:1;line-height:1;">
+                        <option value="建行">中国建设银行</option>
+                        <option value="工行">中国工商银行</option>
+                    </select>
+                    @*<div class="dd"><input type="text" id=""/></div>*@
+                </div>
+            </div>
+
+            <div class="E-Box">
+                <div class="Item clearfix">
+                    <label>银行卡号</label>
+                    <div class="dd"><input type="text" id="MyCashAddNumber" /></div>
+                </div>
+            </div>
+
+            <div class="E-Box">
+                <div class="Item clearfix">
+                    <label>支付密码</label>
+                    <div class="dd"><input type="password" id="MyCashAddPass" maxlength="30"/></div>
+                </div>
+            </div>
+
+            <div class="mt3m pdrd">
+                <a href="javascript:void(0)" class="orange field_btn" id="MyCashAddClick">提交</a>
+            </div>
+
+        </div>
+
+    </div>
+</script>

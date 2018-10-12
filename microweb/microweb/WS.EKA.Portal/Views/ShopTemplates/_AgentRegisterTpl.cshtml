@@ -1,0 +1,58 @@
+﻿<script id="GetAgentRegisterWordTemplate" type="text/mustache-template">
+    {{>header}} 
+    <div id="AgentRegister"></div> 
+   {{>innerFooter}}
+</script>
+
+<script id="AgentRegisterWordFirstTemplate" type="text/mustache-template">      
+  
+    <div id="jqt" data-role="page" class="wrapper">
+          <div data-role="content" class="pt3m PersDate">
+             <div class="E-Box mt00">
+         
+                  <div class="Item">
+                    <input class="name" type="text" placeholder="输入用户名" id="LoginPhone"/>
+                    @*<button class="Getcode" id="GetCode">获取验证码</button>*@
+                  </div>
+                  
+
+                  <div class="Item">
+                    <input class="name" type="text" placeholder="邀请码" id="VerCode" />
+                  </div>
+          
+              </div>
+              <div class="mt3m pdrd">
+                <a href="javascript:void(0)" class="orange field_btn" id="GetLostPassWordNextBtn">下一步</a>
+             </div>
+          </div>
+</div>
+</script>
+
+
+<script id="AgentRegisterWordSecondTemplate" type="text/mustache-template">      
+<div id="jqt" data-role="page" class="wrapper">
+  <div data-role="content" class="pt3m PersDate">
+     <div class="E-Box mt00">
+         
+          <div class="Item">
+            <input class="name" type="password" placeholder="新密码"  id="lostPassWord1"/>
+          </div>
+          <div class="Item">
+            <input class="name" type="password" placeholder="确认新密码" id="lostPassWord2"/>
+          </div>
+          
+      </div>
+    <div class="ErrorTips" id="Error"></div>
+      <div class="mt3m pdrd">
+        <input type="hidden" id="tp2_phone"/>
+        <input type="hidden" id="tp2_yqCode"/>
+        <a href="javascript:void(0)" class="orange field_btn" id="SubmitLostPassWord" >提交</a>
+     </div>
+  </div>
+ 
+<!--反馈提示-->
+<div class="PopTips">
+     修改成功
+</div>
+</div>
+</script>

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AttributeRouting.Web.Http</name>
+    </assembly>
+    <members>
+        <member name="T:AttributeRouting.Web.Http.Constraints.EnumRouteConstraint`1">
+            <summary>
+            Constraints a url parameter to be a value from an enum.
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.Constraints.LengthRouteConstraint">
+            <summary>
+            Constraints a url parameter to be a string of a length within a given range.
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.Constraints.MaxLengthRouteConstraint">
+            <summary>
+            Constraints a url parameter to be a string with a maximum length.
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.Constraints.MaxRouteConstraint">
+            <summary>
+            Constraints a url parameter to be a long with a maximum value.
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.Constraints.MinLengthRouteConstraint">
+            <summary>
+            Constraints a url parameter to be a string with a maximum length.
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.Constraints.MinRouteConstraint">
+            <summary>
+            Constraints a url parameter to be a long with a minimum value.
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.Constraints.RangeRouteConstraint">
+            <summary>
+            Constraints a url parameter to be a long within a given range of values.
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.Constraints.RegexRouteConstraint">
+            <summary>
+            Constraints a url parameter by a regular expression.
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.DefaultHttpRouteConventionAttribute">
+            <summary>
+            Sets up the default Web API route convention
+            See: http://www.asp.net/web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.DELETEAttribute">
+            <summary>
+            Defines a route for an action constrained to requests providing an httpMethod value of DELETE.
+            </summary>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.HttpRouteAttribute">
+            <summary>
+            The route information for an action.
+            </summary>
+        </member>
+        <member name="M:AttributeRouting.Web.Http.HttpRouteAttribute.#ctor(System.String)">
+            <summary>
+            Specify the route information for an action.
+            </summary>
+            <param name="routeUrl">The url that is associated with this action</param>
+        </member>
+        <member name="M:AttributeRouting.Web.Http.HttpRouteAttribute.#ctor(System.String,System.Net.Http.HttpMethod[])">
+            <summary>
+            Specify the route information for an action.
+            </summary>
+            <param name="routeUrl">The url that is associated with this action</param>
+            <param name="allowedMethods">The httpMethods against which to constrain the route</param>
+        </member>
+        <member name="M:AttributeRouting.Web.Http.DELETEAttribute.#ctor(System.String)">
+            <summary>
+            Specify a route for an action constrained to requests providing an httpMethod value of DELETE.
+            </summary>
+            <param name="routeUrl">The url that is associated with this action</param>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.GETAttribute">
+            <summary>
+            Defines a route for an action constrained to requests providing an httpMethod value of GET.
+            </summary>
+        </member>
+        <member name="M:AttributeRouting.Web.Http.GETAttribute.#ctor(System.String)">
+            <summary>
+            Specify a route for an action constrained to requests providing an httpMethod value of GET.
+            </summary>
+            <param name="routeUrl">The url that is associated with this action</param>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.POSTAttribute">
+            <summary>
+            Defines a route for an action constrained to requests providing an httpMethod value of POST.
+            </summary>
+        </member>
+        <member name="M:AttributeRouting.Web.Http.POSTAttribute.#ctor(System.String)">
+            <summary>
+            Specify a route for an action constrained to requests providing an httpMethod value of POST.
+            </summary>
+            <param name="routeUrl">The url that is associated with this action</param>
+        </member>
+        <member name="T:AttributeRouting.Web.Http.PUTAttribute">
+            <summary>
+            Defines a route for an action constrained to requests providing an httpMethod value of PUT.
+            </summary>
+        </member>
+        <member name="M:AttributeRouting.Web.Http.PUTAttribute.#ctor(System.String)">
+            <summary>
+            Specify a route for an action constrained to requests providing an httpMethod value of PUT.
+            </summary>
+            <param name="routeUrl">The url that is associated with this action</param>
+        </member>
+    </members>
+</doc>

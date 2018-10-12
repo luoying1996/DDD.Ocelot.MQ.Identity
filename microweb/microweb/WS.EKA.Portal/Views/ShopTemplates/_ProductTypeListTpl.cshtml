@@ -1,0 +1,35 @@
+﻿
+<script type="text/mustache-template" id="ProductTypeListTemplate">
+     {{>header}}
+    <div data-role="content" class="pt3m">   
+        <div class="Smalllist">
+            <ul class="clearfix" id="ul_productTypeList">
+            </ul>
+        </div>
+    <nav class="nav-page" style=" margin-bottom:10%;"></nav>
+    </div>  
+    {{>innerFooter}}
+</script>
+
+<script type="text/mustache-template" id="InnerTypeListTemplate">
+    {{#products}}
+    <li class="clearfix" productid="{{Guid}}" shopprice="{{ShopPrice}}" name="{{Name}}">
+        <a href="/#page/ProductDetail?{{Guid}}">
+            <div class="img"><span><img src="{{OriginalImge}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'" /></span></div>
+            <div class="text">
+                <h4>{{Name}}</h4>
+                <p class="pri">￥{{ShopPrice}} {{UnitName}}</p>
+                <p class="num">销量 100</p>
+            </div>
+        </a>
+    </li>
+    {{/products}}
+</script>
+
+<script type="text/mustache-template" id="EmptyInnerListTemplate">
+    <div class="ordinary">
+        <h2><img src="/Content/images/sntee.png" /></h2>
+        <p>对不起，没有找到相关商品！</p>
+    </div>
+</script>
+

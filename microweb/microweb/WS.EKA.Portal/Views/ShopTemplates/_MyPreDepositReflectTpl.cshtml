@@ -1,0 +1,50 @@
+﻿<script type="text/mustache-template" id="MyPreDepositReflectTemplate">
+    {{>header}}
+  
+ <div data-role="content" class="pt3m">
+        <div class="mt7m fields creabankcar">
+                <div class="field white">
+                    <div class="field_input">
+                        <label>可提现金额:</label>
+                         <label id="lab_preDepositMoney" style="text-align: center" mark="0"></label>
+                   </div>
+                </div>
+                
+                <div class="field white">
+                    <div class="field_input">
+                        <label>提现银行:</label>
+                        <select id="sel_preDepositReflectBank" style="width:55%">
+                            <option value="-1">-请选择-</option>
+                        </select>
+                        <em>*</em>
+                    </div>
+                </div>
+
+                <div class="field white">
+                    <div class="field_input">
+                        <label>提现金额:</label>
+                        <input type="text" id="txt_preDepositReflectMoney" />¥
+                         <em>*</em>
+                   </div>
+                </div>
+
+                <div class="field white">
+                    <div class="field_input">
+                        <label>备注:</label>
+                        <input type="text" id="txt_preDepositReflectRemark"  style="height:5em"/>
+                   </div>
+                </div>
+                  
+                <div class="ErrorTips" id="MyPreDepositReflectTemplateError">
+                   
+                </div>          
+           </div>
+
+            <div class="fixbtn">
+                <div class="btnbox">
+                     <a class="orange field_btn" onclick="MyPreDepositReflectTemplateClick();">提交</a>
+                 </div>
+            </div>
+    </div>
+ 
+</script>

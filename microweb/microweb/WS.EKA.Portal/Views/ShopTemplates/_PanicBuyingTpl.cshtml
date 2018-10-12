@@ -1,0 +1,65 @@
+﻿<script type="text/mustache-template" id="PanicBuyingLi">
+    {{#Data}}
+    <li>
+        <a class="GoPanicProductDetail" productguid="{{ProductGuid}}" panicbuyingprice="{{PanicBuyingPrice}}" endtime="{{EndTime}}" restrictcount="{{RestrictCount}}">
+            <div class="img"><span><img src="{{OriginalImge}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'" /></span></div>
+            <div class="text">
+                <h4>{{Name}}</h4>
+                <p class="val"><b>¥{{PanicBuyingPrice}}</b></p>
+                <div class="time" endtime="{{EndTime}}">{{EndTime}}</div>
+            </div>
+        </a>
+    </li>  
+    {{/Data}}
+</script>
+
+<script type="text/mustache-template" id="PanicBuying">
+    <style>
+        /***************分页******************/
+        .fenye {
+            float: left;
+            margin-top: 10px;
+        }
+
+            .fenye ul {
+                float: left;
+                margin-left: 32px;
+            }
+
+                .fenye ul li {
+                    float: left;
+                    margin-left: 23px;
+                    padding: 4px 6px;
+                    border: 1px solid #ccc;
+                    font-weight: bold;
+                    cursor: pointer;
+                    color: #999;
+                }
+
+                    .fenye ul li a {
+                        color: #999;
+                    }
+    </style>
+
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+        <div data-role="content" class="pt3m">
+            <div class="Smalllist mt00">
+                <ul class="clearfix" id="ul_PanicBuyingList">
+                                  
+                </ul>
+            </div>
+        </div>
+        <div class="fenye">
+            <ul>
+                <li id="first">首页</li>
+                <li id="top">上一页</li>
+                <li id="down">下一页</li>
+                <li id="last">末页</li>
+            </ul>
+
+        </div>
+    </div>
+    
+    <input type="hidden" id="pageCount" value="0" />
+</script>

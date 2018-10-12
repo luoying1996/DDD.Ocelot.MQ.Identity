@@ -1,0 +1,54 @@
+﻿<script type="text/mustache-template" id="MyRebateInfo">
+    {{>header}}
+
+
+    <div data-role="content" class="pt3m">
+        <div class="AmInfor">
+            <div class="clearfix">
+                <div class="box">
+                    <h4>今日推广盈利（元）</h4>
+                    <h2 id="TodayRebate"></h2>
+                </div>
+                <div class="box all">
+                    <h4>总推广盈利（元）</h4>
+                    <h2 id="AllRebate"></h2>
+                </div>
+            </div>
+        </div><!--AmInfor end-->
+        <div class="AmTab">
+            <ul id="tabChange" class="clearfix">
+                <li class="cur" dataindex="1"><b id="firstCount"></b><p>一级分销</p></li>
+                <li dataindex="2"><b id="secondCount"></b><p>二级分销</p></li>
+                <li dataindex="3"><b id="thirdCount"></b><p>三级分销</p></li>
+            </ul>
+        </div><!--AmTab end-->
+        <div class="AmList">
+            <ul class="clearfix" id="RebateListHtml"></ul>
+        </div>
+        <!--AmList end-->
+
+
+        <div class="pd1m">
+
+            <div class="mt1m pdrd">
+                <a href="/#page/DevelopMember" class="orange field_btn">发展会员</a>
+            </div>
+
+        </div>
+    </div>
+    {{>innerFooter}}
+</script>
+
+<script type="text/mustache-template" id="MyRebateList">
+    {{#Distributor}}
+    <li>
+        <div class="con">
+            <div class="img"><img src="{{Photo}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'" /></div>
+            <div class="name">
+                <h3>{{MemLoginID}}</h3>
+                <p>总盈利<span>￥{{Profit}}</span></p>
+            </div>
+        </div>
+    </li>
+    {{/Distributor}}
+</script>

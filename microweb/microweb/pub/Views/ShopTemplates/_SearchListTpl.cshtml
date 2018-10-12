@@ -1,0 +1,15 @@
+﻿<script type="text/mustache-template" id="SearchListTemplate">
+{{>header}} 
+    <div data-role="content" class="pt3m">
+       <ul class="flex promotRank" id="SearchListOrder">
+            <li class="flex_div select" ordertype="ModifyTime"><a>上架时间<b></b></a></li>
+            <li class="flex_div" orderType='Price' ><a>商品价格<b></b></a></li>
+            <li class="flex_div" orderType='SaleNumber' ><a>商品销量<b></b></a></li>	
+        </ul>
+    
+        <div class="Smalllist"> <ul class="clearfix" id="ul_productList"></ul></div>@* 可以调用productList里面的模板 *@
+         <nav class="nav-page" style=" margin-bottom:10%;">
+    </div>  
+    </div>
+{{>innerFooter}}
+</script>

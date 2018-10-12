@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width" />
+<title>我的团队</title>
+<link href="../../Content/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../../Content/css/index.css" rel="stylesheet" type="text/css" />
+<script src="../../Scripts/jquery-1.7.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="jqt" data-role="page" class="wrapper">
+ <div id="header">
+     <div class="head">
+        <h1>我的团队</h1>
+        <a class="H-back" href="javascript:history.back(-1);">返回</a>
+     </div>
+  </div>
+  
+  <div data-role="content" class="pad01">
+    <div class="AmInfor">
+        <div class="clearfix">
+           <div class="box">
+             <h4>今日推广盈利（元）</h4>
+             <h2>515.00</h2>
+           </div>
+           <div class="box all">
+             <h4>总推广盈利（元）</h4>
+             <h2>115600.00</h2>
+           </div>
+        </div>
+     </div><!--AmInfor end-->
+     <div class="AmTab">
+       <ul class="clearfix">
+         <li class="cur"><a href="#"><b>125</b><p>一级分销</p></a><em></em></li>
+         <li><a href="#"><b>312</b><p>二级分销</p></a><em></em></li>
+         <li><a href="#"><b>119</b><p>三级分销</p></a><em></em></li>
+       </ul>
+     </div><!--AmTab end-->
+     <div class="AmList">
+        <ul class="clearfix">
+           <li>
+             <div class="con">
+                   <div class="img"><img src="../../ImgUpload/phote.jpg" /></div>
+                   <div class="name">
+                      <h3>糖糖</h3>
+                      <p>总盈利<span>￥240.00</span></p>
+                   </div>
+             </div>
+           </li>
+           <li>
+             <div class="con">
+                   <div class="img"><img src="../../ImgUpload/phote.jpg" /></div>
+                   <div class="name">
+                      <h3>糖糖</h3>
+                      <p>总盈利<span>￥240.00</span></p>
+                   </div>
+             </div>
+           </li>
+        </ul>
+     </div>
+     <!--AmList end-->
+    
+  </div>
+  <div class="fixbtn">
+     <div class="btnbox"><a class="orange field_btn" href="#">发展会员</a></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+ $(function(){
+   $(".AmTab li").click(function(){
+	  $(this).addClass("cur").siblings().removeClass("cur")
+	})
+ })
+</script>
+</body>
+</html>

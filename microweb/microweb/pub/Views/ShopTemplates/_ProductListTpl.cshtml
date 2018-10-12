@@ -1,0 +1,62 @@
+﻿<script type="text/mustache-template" id="ProductListTemplate">
+    {{>header}}
+    <div data-role="content" class="pt3m">
+       <ul class="flex promotRank" id="ProductListOrder">
+            <li class="flex_div cur" ordertype="ModifyTime"><a>综合</a></li>
+            <li class="flex_div" ordertype="SaleNumber"><a>销量</a></li>
+            <li class="flex_div" ordertype="Price"><a>价格</a></li>
+            <li class="flex_div" ordertype="GetList"><a><em class="smallimg"></em>列表</a></li>
+        </ul>    
+        <div class="Smalllist">
+            <ul class="clearfix" id="ul_productList">
+			
+            </ul> 
+			<div class="nav-page"></div>
+		</div>
+    	
+    </div>
+	
+	 
+	
+	
+    {{>innerFooter}}
+</script>
+
+
+<script type="text/mustache-template" id="ThreeCheckTemplate">
+    <div class="orderType">
+        <ul>
+            <li class="selected" ordertype='SaleNumber'><span>销量</span></li>
+            <li class="price" ordertype='Price'>
+                <span>价格<a class="up"></a></span>
+            </li>
+            <li ordertype='ModifyTime'><span>上架时间</span></li>
+        </ul>
+    </div>
+</script>
+
+
+<script type="text/mustache-template" id="InnerListTemplate">
+    {{#products}}
+
+    <li class="clearfix" productid="{{Guid}}" shopprice="{{ShopPrice}}">
+        <a href="/#page/ProductDetail?{{Guid}}">
+            <div class="img"><span><img src="{{OriginalImge}}" /></span></div>
+            <div class="text">
+                <h4>{{Name}}</h4>
+                <p class="pri">￥{{ShopPrice}} </p>
+                <p class="num">最近售出：{{SaleNumber}}</p>
+            </div>
+        </a>
+    </li>
+
+    {{/products}}
+</script>
+
+<script type="text/mustache-template" id="EmptyInnerListTemplate">
+    <div class="ordinary">
+        <h2><img src="/Content/images/sntee.png" /></h2>
+        <p>对不起，没有找到相关商品！</p>
+    </div>
+</script>
+

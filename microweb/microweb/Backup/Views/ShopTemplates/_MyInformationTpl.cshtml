@@ -1,0 +1,62 @@
+﻿<script type="text/mustache-template" id="MyInformation">
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+        <div data-role="content" class="pt3m PersDate">
+            <div class="E-Box">
+                <div class="Item Img">
+                    <a href="javascript:;" id="J-changeimg">
+                        <div class="PersImg fd-right"><img src="../../ImgUpload/phote.jpg"></div>
+                        <b>头像</b>
+                    </a>
+                </div>
+                <div class="Item">
+                    <a href="/#page/MyName">
+                        <font class="fd-gray fd-right" id="UserName"></font>
+                        <b>昵称</b>
+                    </a>
+                </div>
+                <div class="Item">
+                    <a href="/#page/MySex">
+                        <font class="fd-gray fd-right" id="Sex"></font>
+                        <b>性别</b>
+                    </a>
+                </div>
+                <div class="Item">
+                <a href="/#page/MySetUp">
+                    <b>设置</b>
+                </a>
+            </div>
+            </div>
+            <div class="mt1m pdrd">
+                <a href="javascript:void(0)" class="orange field_btn" Id="LoginOut">退出当前账号</a>
+            </div>
+        </div>
+        <!--修改头像-->
+        <div class="ChangeBox" style="display:none;">
+            <div class="popbg"></div>
+            <div class="ChangeC">
+     <form id="form1" runat="server">
+                <div class="ChangeL">
+                    <ul class="clearfix">
+                        <li class="photo"><em id="textfield"></em>选择相片</li>
+                        <input style="height" name="ImageInput"  id="ImageInput" class="ImageInput"  capture="camera" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" onchange="changfile(this)" >
+    
+                    </ul>
+                </div>
+      
+              
+    </form>
+
+                <button class="fbtn-white" id="SubPhoto">确认</button>
+                <button class="fbtn-white" id="CancelPhoto">取消</button>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $("#J-changeimg").click(function () {
+                $(".ChangeBox").show();
+            })
+        })
+</script>

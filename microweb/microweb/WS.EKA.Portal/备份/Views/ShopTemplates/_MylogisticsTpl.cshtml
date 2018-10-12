@@ -1,0 +1,37 @@
+﻿<script type="text/mustache-template" id="MylogisticsLi">
+    {{#datatext}}
+   
+    <li><em></em><h4>{{context}}</h4><p>{{time}}</p></li>
+
+    {{/datatext}}
+</script>
+<script type="text/mustache-template" id="Mylogistics">
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+
+        <div data-role="content" class="pt3m">
+            <div class="E-Box mt00">
+                <div class="Item">
+                    物流公司：<span id="logisticsName">德邦物流</span>
+                </div>
+                <div class="Item">
+                    订单号：<span id="MylogisticsOrderNumber"></span>
+                </div>
+            </div>
+            <div class="wlinfo">
+                <div class="tit"><b>物流信息</b></div>
+                <div class="con">
+                    <ul class="clearfix" id="ul_MylogisticsList">
+                        @*<li class="cur"><em></em><h4>集家咀：已签收</h4><p>2015-04-09  16:28:32</p></li>
+                            <li><em></em><h4>快件到达 【武汉服务点】</h4><p>2015-04-08  17:28:29</p></li>
+                            <li><em></em><h4>快件正转运至 【青岛北安服务点】</h4><p>2015-04-07  10:38:29</p></li>
+                            <li><em></em><h4>快件正转运至 【青岛北安服务点】</h4><p>2015-04-07  10:38:29</p></li>
+                            <li><em></em><h4>已收取快件</h4><p>2015-04-05  11:58:29</p></li>*@
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>

@@ -1,0 +1,85 @@
+﻿<script type="text/mustache-template" id="MyOrderTemplate">
+    {{>header}}
+    <div data-role="content" class="pt3m">
+        <div data-role="controlgroup">
+            <article>
+                <section>
+                    <div class="member_info">
+                        <div class="member_menu">
+                            <ul class="flex muneli">
+                                <li t="0" class="flex_div on"><a id="a_a">全部订单</a></li>
+                                <li t="1" class="flex_div"><a id="a_dfk">待付款</a></li>
+                                <li t="2" class="flex_div"><a id="a_dfh">待发货</a></li>
+                                <li t="3" class="flex_div"><a id="a_dsh">待收货</a></li>
+                                <li t="4" class="flex_div"><a id="a_dpj">待评价</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <ul class="Myorderlist" id="Myordersul"></ul>
+                    <nav class="nav-page">
+                    </nav>
+                </section>
+            </article>
+        </div>
+
+        {{>innerFooter}}
+</script>
+
+<script type="text/mustache-template" id="EmptyOrderTemplate">
+    <div style="margin-top:10px;">
+        暂无订单！
+    </div>
+</script>
+<script type="text/mustache-template" id="OrderListTemplate">
+    {{#orders}}
+
+    <li ordernumber="{{OrderNumber}}" guid="{{Guid}}" shouldpayprice="{{ShouldPayPrice}}" alreadpayprice="{{AlreadPayPrice}}">
+        <input type="hidden" id="paytype{{OrderNumber}}" value="{{PayType}}" />
+        <input type="hidden" name="ordernumber" value="{{OrderNumber}}" />
+        <div class="h1">
+            <span class="fd-right">总计<font class="fd-pale">￥{{AlreadPayPrice}}</font>@*{{CreateTime}}*@</span>
+            <b>订单状态：{{StatusName}}@*{{OrderNumber}}*@</b>
+        </div>
+        {{#ProductList}}
+        <div class="List" productguid="{{ProductGuid}}">
+            <p class="img"><span><img src="{{OriginalImge}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'"><span></p>
+            <div class="info">
+                <h2>{{NAME}}</h2>
+                <p class="pricearea"><span class="pri">￥{{BuyPrice}}</span> <span class="num">x{{BuyNumber}}</span></p>
+                <p class="spec">颜色：蓝</p>
+            </div>
+        </div>
+        {{/ProductList}}
+        <div class="Obtn">
+
+            <p class="fd-hide">{{StatusName}}</p>
+            <div id="buttonlistdiv">
+
+                <a class="btn1">付款</a>
+                <a class="btn2">取消</a>
+
+            </div>
+    </li>
+    {{/orders}}
+</script>
+<script type="text/mustache-template" id="MyOrderEvaluateModelli">
+    {{#orders}}
+    {{#ProductList}}
+    <li productguid="{{ProductGuid}}" ordernumber="{{OrderNumber}}" buynumber="{{BuyNumber}}" buyprice="{{BuyPrice}}" name="{{NAME}}" attributes="{{Attributes}}" originalimge="{{OriginalImge}}" iscomment="{{IsComment}}">
+        <div class="List">
+            <p class="img"><span><img src="{{OriginalImge}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'"><span></span></span></p>
+            <div class="info">
+                <h2>{{NAME}}</h2>
+                <p><span class="pri">￥{{BuyPrice}}</span> <span class="num">x{{BuyNumber}}</span></p>
+                <p class="spec">{{Attributes}}</p>
+            </div>
+        </div>
+        <div class="Obtn iscomment" iscomment="{{IsComment}}">
+
+        </div>
+    </li>
+    {{/ProductList}}
+    {{/orders}}
+</script>

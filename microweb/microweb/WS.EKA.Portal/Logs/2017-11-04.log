@@ -1,0 +1,170 @@
+2017-11-04 10:39:26.4478 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 10:44:56.9261 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 10:45:00.1880 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:02:50.9855 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:02:51.0235 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:02:51.0295 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:02:51.0295 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:02:58.1779 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:03:05.4124 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:03:57.2813 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:03:57.2813 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:03:57.2813 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:03:57.2813 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:03:57.2813 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:03:57.5725 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:03:58.2701 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:03:59.2611 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:03:59.2611 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:03:59.2611 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:03:59.2611 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:03:59.2691 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:03:59.5683 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:04:09.2180 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:05:19.6956 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:06:31.7976 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:06:40.5035 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:06:41.6405 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:06:41.6405 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:06:41.6405 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:06:41.6405 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:06:41.6405 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:06:41.8937 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:06:43.0177 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:06:43.8775 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:06:43.8775 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:06:43.8775 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:06:43.8775 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:06:43.8775 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:06:44.2138 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:08:18.8102 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:08:18.8102 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:08:18.8102 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:08:18.8102 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:08:18.8102 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:08:19.2236 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:12:20.8805 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:12:20.8805 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:12:20.8805 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:12:20.8805 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:12:20.8905 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:12:21.3569 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:12:24.4698 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:12:25.3526 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:12:25.3526 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:12:25.3526 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:12:25.3526 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:12:25.3606 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:12:25.6198 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:33:31.1435 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:33:31.1885 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:33:31.1885 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:33:31.1885 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:33:35.8748 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:33:39.6301 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:33:55.7137 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:33:55.7137 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:33:55.7137 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:33:55.7137 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:33:55.7206 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:33:55.9529 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:39:04.1269 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:39:04.1269 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:39:04.1269 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:39:04.1269 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:39:04.1439 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:39:04.6483 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:40:17.5061 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:40:17.5061 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:40:17.5061 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:40:17.5061 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:40:17.5201 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:40:17.8774 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:42:24.2084 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:42:24.2084 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:42:24.2084 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:42:24.2084 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:42:24.2184 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:42:24.5647 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:43:15.7819 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:48:57.7834 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 13:48:58.9195 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 13:48:58.9205 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 13:48:58.9205 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 13:48:58.9205 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 13:48:58.9205 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 13:48:59.2708 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 14:21:50.5932 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 14:21:50.6243 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xIv4se1pT3xFCOTjMjQTyHQ
+2017-11-04 14:21:50.6243 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 14:21:50.6243 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 14:21:55.5777 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 14:21:58.5223 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 14:22:37.0851 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 14:22:37.0851 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xN51PKYEASU0-gkFc6o9AoM
+2017-11-04 14:22:37.0851 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 14:22:37.0851 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 14:22:37.0951 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 14:22:37.4554 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 14:23:29.6946 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 14:23:29.6946 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xN51PKYEASU0-gkFc6o9AoM
+2017-11-04 14:23:29.6946 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 14:23:29.6946 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 14:23:29.7086 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 14:23:30.0419 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 14:23:40.7205 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 14:23:40.7205 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xN51PKYEASU0-gkFc6o9AoM
+2017-11-04 14:23:40.7205 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 14:23:40.7205 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 14:23:40.7205 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 14:23:41.0378 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 14:24:16.6980 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind Error 接口异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 156
+2017-11-04 14:24:16.7410 <no type>.CallSite.Target Info 微信OpenID:
+2017-11-04 14:25:56.2128 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 14:25:56.2128 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xN51PKYEASU0-gkFc6o9AoM
+2017-11-04 14:25:56.2128 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 14:25:56.2128 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 14:25:56.2168 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 14:25:56.7252 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 14:26:26.0707 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-11-04 14:26:39.3156 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind Error 接口异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 156
+2017-11-04 14:26:39.3156 <no type>.CallSite.Target Info 微信OpenID:
+2017-11-04 14:27:13.7847 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 14:45:53.9453 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 14:45:53.9453 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xN51PKYEASU0-gkFc6o9AoM
+2017-11-04 14:45:53.9453 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 14:45:53.9453 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 14:45:53.9824 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 14:45:54.4728 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 21:00:43.9864 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 21:27:19.9892 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 21:28:18.6951 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 21:37:39.7002 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-11-04 21:41:13.7204 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-11-04 21:41:13.7204 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xK8IW920chdQ_22NkWkqPnE
+2017-11-04 21:41:13.7204 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-11-04 21:41:13.7204 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-11-04 21:41:13.7784 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-11-04 21:41:14.1968 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误

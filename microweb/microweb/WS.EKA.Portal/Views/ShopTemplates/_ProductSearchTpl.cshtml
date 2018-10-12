@@ -1,0 +1,39 @@
+﻿<script type="text/mustache-template" id="ProductSearch">
+    {{>header}}
+    <div id="header">
+        <div class="head E-search">
+            <div class="clearfix">
+                <input class="E-SearText" placeholder="输入商品名称" type="text">
+                <input value="搜索" class="E-SearBtn" type="button">
+            </div>
+            <a class="H-back" href="javascript:history.back(-1);">返回</a>
+        </div>
+    </div>
+    <div data-role="content" class="pt3m">
+        <div class="SearchPlate">
+            <h2>热门搜索</h2>
+            <div class="hotSearchList">
+                <ul id="ul_KeyWordsList">      
+                </ul>
+            </div>
+        </div>
+        <div class="SearchPlate">
+            <h2>搜索历史</h2>
+            <div class="historyList">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <div class="SearchBtn">
+            <a>清空搜索历史</a>
+        </div>
+    </div>
+    </div>
+</script>
+
+
+<script type="text/mustache-template" id="KeyWordsModel">
+    {{#keywords}}
+     <li><a href="/#page/SearchList?{{Name1}}">{{Name}}</a></li>
+    {{/keywords}}
+</script>

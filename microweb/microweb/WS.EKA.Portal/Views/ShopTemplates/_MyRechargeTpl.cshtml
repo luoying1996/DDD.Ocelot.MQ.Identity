@@ -1,0 +1,27 @@
+﻿<script type="text/mustache-template" id="MyRechargePayLi">
+    {{#Data}}
+    <li class="" Guid="{{Guid}}" PayType="{{PaymentType}}" NAME="{{NAME}}"><a><b>{{NAME}}</b></a></li>
+    @*<li class="cur"><a href="#"><b>微信支付</b></a></li>*@
+    {{/Data}}
+</script>
+
+
+<script type="text/mustache-template" id="MyRecharge">
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+        <div data-role="content" class="pt3m PersDate">
+            <div class="E-Box">
+                <div class="Item">
+                    <input class="name" value="" placeholder="请输入充值金额" type="text" id="RechargeMoney" />
+                </div>
+            </div>
+            <div class="orderpay">
+                <h3>请选择付款方式</h3>
+                <ul class="clearfix" id="ul_MyRechargePaylist"></ul>
+            </div>
+            <div class="mt1m pdrd">
+                <a href="javascript:void(0)" class="orange field_btn" id="btnConfirm">确认支付</a>
+            </div>
+        </div>
+    </div>
+</script>

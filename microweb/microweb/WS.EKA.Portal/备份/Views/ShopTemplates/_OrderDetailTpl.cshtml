@@ -1,0 +1,166 @@
+﻿<script type="text/mustache-template" id="OrderDetailTemplate">
+    {{>header}}
+
+    <div data-role="content" class="pt3m">
+        <div data-role="controlgroup">
+
+            <ul class="Myorderlist" id="ddorderdetail"></ul>
+
+            <div class="OrdetailInfo" id="AddressInfo">
+
+            </div>
+
+        </div>
+    </div>
+
+</script>
+
+<script type="text/mustache-template" id="addreInfoTemplate">
+    {{#Orderinfo}}
+    <div class="item">
+        <h2><span>{{Name}}</span>  <span>{{Mobile}}</span></h2>
+        <p>{{Address}}</p>
+    </div>
+    <div class="item">
+        <h2>发票信息(普通发票)</h2>
+        <p>发票抬头:   {{InvoiceTitle}}</p>
+        <p>发票类型:   {{InvoiceType}}</p>
+        <p>发票内容:   {{InvoiceContent}}</p>
+    </div>
+    <div class="item">
+        <h2>订单留言</h2>
+        <p><textarea>{{ClientToSellerMsg}}</textarea></p>
+    </div>
+    {{/Orderinfo}}
+</script>
+<script type="text/mustache-template" id="OrderDetailHeadTemplate">
+    {{#Orderinfo}}
+    <li id="orderinfo_" guid="{{Guid}}" ordernumber="{{OrderNumber}}" orderprice="{{orderPrice}}" alreadpayprice="{{AlreadPayPrice}}">
+        <div class="h1"><b>订单状态：{{StatusName}}</b><b class="fd-right">订单时间:{{CreateTime}}</b></div>
+
+
+        {{#ProductList}}
+        <div class="List">
+            <p class="img"><span><img src="{{OriginalImge}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'"></span></p>
+            <div class="info">
+                <h2>{{NAME}}</h2>
+                <p><span class="pri">￥{{BuyPrice}}</span> <span class="num">x{{BuyNumber}}</span></p>
+                <p class="spec">{{Attributes}}</p>
+            </div>
+        </div>
+        {{/ProductList}}
+        <dl class="Oval">
+            <dd class="clearfix"><span>订单号</span><b>{{OrderNumber}}</b></dd>
+            <dd class="clearfix"><span>商品总计</span><b>￥{{ProductPrice}}</b></dd>
+            <dd class="clearfix"><span>积分抵现</span><b>￥-0.00</b></dd>
+            <dt class="clearfix"><span>实付款(含运费)</span><b>￥{{AlreadPayPrice}}</b></dt>
+        </dl>
+        <div class="Obtn" id="ul_uste">
+            {{#NeedPay}}
+
+
+            {{/NeedPay}}
+        </div>
+    </li>
+    <input type="hidden" id="txt_OrderNumber" value="{{OrderNumber}}" />
+
+    {{/Orderinfo}}
+</script>
+
+
+<script type="text/mustache-template" id="PayDetailTemplate">
+    <div id="PayDetail">
+        {{>header}}
+        <div class="scroll-wrapper" id="PayDetailWrapper">
+            <div class="scroll-inner">
+                <div class='pad-6 payDetail'>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/mustache-template" id="PayDetailPaymentTemplate">
+    {{#Data}}
+
+    <div class="white fill_set">
+        <dl class="flex"><dt>收货地址：</dt><dd class="flex_div">{{Address}}</dd></dl>
+        <dl class="flex"><dt>收货人：</dt><dd class="flex_div">{{Name}}</dd></dl>
+        <dl class="flex"><dt>手机号：</dt><dd class="flex_div">{{Mobile}}</dd></dl>
+        <dl class="flex"><dt>留言：</dt><dd class="flex_div">{{ClientToSellerMsg}}</dd></dl>
+        <dl class="flex"><dt>物流公司：</dt><dd class="flex_div">{{DispatchMode.NAME}}</dd></dl>
+        <dl class="flex"><dt>物流单号：</dt><dd class="flex_div">{{LogisticsCompanyCode}} </dd></dl>
+    </div>
+
+    {{/Data}}
+</script>
+
+<script type="text/mustache-template" id="PayDetailProductListTemplate">
+    {{#ProductList}}
+
+    <li productid='{{ProductGuid}}' productprice='{{BuyPrice}}'>
+        <div class="List">
+            <p class="img"><span><img src="{{OriginalImge}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'"></span></p>
+            <div class="info">
+                <h2>{{NAME}}</h2>
+                <p><span class="pri">￥{{BuyPrice}}</span> <span class="num">x{{BuyNumber}}</span></p>
+                <p class="spec">颜色：蓝</p>
+            </div>
+        </div>
+    </li>
+
+
+
+
+
+    @*<dl class="lstide"  productid='{{ProductGuid}}' productprice='{{BuyPrice}}'>
+            <dt class="lstimg">
+            <a href="javascript:void(0)"><img src="{{OriginalImge}}" /></a>
+            </dt>
+            <dd class="lstword">
+            <figure>
+            <h2><a href="javascript:void(0)"> {{NAME}}</a></h2>
+            <p><span>{{Attributes}}</span></p>
+            <p><span class="ynprice">数量:{{BuyNumber}}</span></p>
+            <p>商品价：<span class="ynprice"><b>¥{{BuyPrice}}</b></span></p>
+            </figure>
+            </dd>
+        </dl>*@
+    {{/ProductList}}
+</script>
+
+<script type="text/mustache-template" id="PayzfTemplate">
+
+    {{>header}}
+
+    <div id="GenerateOrderWrapper" class="pt3m">
+        <div data-role="content" class="bs-conten wxContent">
+            <div class="predeposit">
+
+                <div class="Item">
+                    <b class="label">请输入支付密码：</b>
+                    <span class="predinput"><input id="PayPwdvalue" type="password" /></span>
+                </div>
+                <div class="Item">
+                    <b class="label">支付金额：</b>
+                    <span class="predinput"><input id="shouldPay" value="{{ShouldPayPrice}}" readonly type="text" /></span>
+                </div>
+                <div class="Item">
+                    <b class="label">当前可用预存款：</b>
+                    <span class="predinput"><input id="advancePayment" value="{{AdvancePayment}}" readonly type="text" /></span>
+                </div>
+                <div id="PayPwdvalueError" class="tipboxs"></div>
+
+
+
+
+            </div>
+            <div class="mt1m pdrd">
+                <input type="button" class="pink field_btn" id="PayzfBtn" value="确认支付" />
+            </div>
+        </div>
+    </div>
+
+    {{>innerFooter}}
+</script>

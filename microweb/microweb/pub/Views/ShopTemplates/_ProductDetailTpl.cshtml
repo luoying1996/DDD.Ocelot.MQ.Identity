@@ -1,0 +1,173 @@
+﻿<script type="text/mustache-template" id="ProductDetailTemplate">
+    {{>header}}
+    <div data-role="controlgroup" class="ProDetail pad01">
+    <div class="white swipeAll">
+        <div class="swipe fd-locate">
+            <ul id="slider" class="fd-locate flash"></ul>
+            <div id="pagenavi" class="pagenavi">
+
+            </div>
+        </div>
+    </div>
+    <div id="section_ProductDetail">
+        
+     
+    </div>
+
+    <div class="ProInfo">
+            <ul class="E-Tab flex">
+                <li class="flex_div cur"><a href="javascript:;">商品评价</a></li>
+                <li class="flex_div"><a href="javascript:;">商品详细</a></li>
+            </ul>
+            <div class="con">
+                <div class="ProCommentList">
+                    <ul class="clearfix" id="ul_Comment">
+
+                    </ul>
+                </div>
+                <div class="Proxq" id="div_daitaTxt" style="display:none;">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shadow">
+        <section>
+
+            <div class="white stande_dail">
+                <span class="stande_cancel"></span>
+                <div class="poptit" id="ul_promoteList"></div>
+                <div class="D-ggsxbox" id="div_grey">
+                   
+                </div>
+                <div class="grey stande_num">
+                    <dl class="archive_num clearfix">
+                        <dt class="fd-left">数量</dt>
+                        <dd class="fd-right fd-locate">
+                            <a class="incre" onclick="CutProductShop()"></a>
+                            <input type="text" name="numeber" placeholder="1" class="arche_input" id="txtBuyNumber" value="1" disabled="disabled" />
+                            <a class="add" onclick="AddProductShop()"></a>
+                        </dd>
+                    </dl>
+                </div>
+
+                <div class="ascertain_btn">
+                    <a class="orange ascertain" onclick="GetProductDetaiSpecificationPirce()">确定</a>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <footer>
+        <div class="navfix">
+            <div class="profbtn clearfix">
+                <a class="profshare" style="display:none;"></a>                
+                <a class="profcart" href="/#page/MyCart"></a>                                          
+                <a class="addCart" onclick="SubCartType(1)">加入购物车</a>
+                <a class="immediate" onclick="SubCartType(0)">立即购买</a>
+            </div>
+        </div>
+    </footer>
+
+   
+</script>
+
+<script type="text/mustache-template" id="ProductDetailShowTemplate">
+
+    <section class="white">
+        <div class="ProDetaliInfo">
+            <dl class="clearfix">
+                <dt>{{Name}}</dt>
+                <dd class="fd-right"><em class="CollectIcn"></em></dd>
+            </dl>
+            <div class="Prices">
+                <span class="fd-pale">¥<b>{{ShopPrice}}</b></span>
+                <del class="MarPrice fd-gray2">¥{{MarketPrice}}</del>
+            </div>
+        </div>
+    </section>
+    <ul class="acty clearfix">
+        <li>最近售出<s>{{BuyCount}}</s></li>
+        <li class="fd-tc">评分<s>{{IsBest}}</s></li>
+        <li class="fd-tr">赠送积分<s>{{PresentScore}}</s></li>
+    </ul>
+
+    <input type="hidden" id="hidProductGuid" value="{{Guid}}" />
+    <input type="hidden" id="hidName" value="{{Name}}" />
+    <input type="hidden" id="hidOriginalImge" value="{{OriginalImge}}" />
+    <input type="hidden" id="hidShopPrice" value="{{ShopPrice}}" />
+    <input type="hidden" id="hidMarketPrice" value="{{MarketPrice}}" />
+    <input type="hidden" id="hidRepertoryNumber" value="{{RepertoryNumber}}" />
+    <input type="hidden" id="hidRepertoryCount" value="{{RepertoryCount}}" />
+    <input type="hidden" id="hidLimitBuyCount" value="{{LimitBuyCount}}" />
+    <input type="hidden" id="hidSpecRepertoryCount" value="" />
+    <input type="hidden" id="hidSpecPrice" value="" />
+    <input type="hidden" id="hidSpec" value="" />
+    <input type="hidden" id="hidSpecName" value="" />
+    <input type="hidden" id="hidGoType" value="" />
+</script>
+
+<script type="text/mustache-template" id="ProductContentTemplate">
+
+    {{{Detail}}}
+
+</script>
+
+
+<script type="text/mustache-template" id="ProductDetailShow2Template">
+
+    <div class="img fd-left"><img src="{{OriginalImge}}"></div>
+    <div class="tit">
+        <h2><b class="fd-pale">￥{{ShopPrice}}</b><span class="fd-gray2">（库存<font id="spanRepertoryCount"></font>件）</span></h2>
+        <p class="nosx">请选择商品属性</p>
+    </div>
+
+</script>
+
+
+<script type="text/mustache-template" id="ProductDetailSpecificationListTemplate">
+    {{#SpecificationProudct}}
+    <div class="D-ggsx">
+        <h4>{{SpecValueName}}</h4>
+        <ul class="clearfix">
+            {{#Specification}}
+            <li><a href="javascript:void(0);" value="{{Specid}}:{{SpecValueid}}" guid="{{SpecValueid}}" name="{{SpecValueName}}">{{SpecValueName}}</a></li>
+            {{/Specification}}
+            <input type="hidden" value="0" name="HiddenSpeGuid">
+        </ul>
+    </div>
+    {{/SpecificationProudct}}
+</script>
+
+<script type="text/mustache-template" id="ProductCommentTemplate">
+    {{#Data}}
+
+    <li>
+        <p><span>{{MemLoginID}}</span><time>{{SendTime}}</time></p>
+        <h2>{{Title}}</h2>
+        <p class="reply">{{Content}}</p>
+    </li>
+
+    {{/Data}}
+</script>
+
+<script id="ProductCommentList" type="text/mustache-template">
+    {{#Data}}
+    <li>
+        <div class="img"><img src="{{memphoto}}"></div>
+        <div class="info">
+            <div class="h3"><span class="fd-right fd-gray2">{{sendtime}}</span><b>{{memname}}</b></div>
+            <p class="F_Star"><em class="productdetailstar" style="width:100%" rank="{{rank}}"></em></p>
+            <div class="imgst clearfix" id="comment_Image">
+                {{#baskiamgeList}}
+                <div class="itm"><span><img src="{{ImageUrl}}"></span></div>
+                {{/baskiamgeList}}
+
+            </div>
+            <div class="con">{{content}}</div>
+            <p class="spec">{{attributes}}</p>
+        </div>
+    </li>
+    {{/Data}}
+</script>

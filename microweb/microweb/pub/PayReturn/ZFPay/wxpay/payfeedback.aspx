@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="payfeedback.aspx.cs" Inherits="WS.EKA.Portal.wxpay.payfeedback" %>

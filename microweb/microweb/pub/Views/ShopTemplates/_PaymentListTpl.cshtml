@@ -1,0 +1,29 @@
+﻿<script type="text/mustache-template" id="PaymentListTemplate">
+    <div id="PaymentList">
+        {{>header}}
+        <div class="scroll-wrapper" id="PaymentListWrapper">
+            <div class="scroll-inner">
+                <div class='innerTitle'>选择支付方式</div>
+
+                <div class='paymentList pad-6'>
+                
+                </div>
+                {{>footer}}
+            </div>
+        </div>
+    </div>
+</script>
+
+
+<script type="text/mustache-template" id="PaymentListContentTemplate">
+    <div id='hidePaymentList'>
+        <ul>
+            {{#payments}}
+                <li paymentid='{{Guid}}'>
+                {{NAME}}
+                <span class="menu-botton-arrow"></span>
+                </li>
+            {{/payments}}
+        </ul>
+    </div>
+</script>

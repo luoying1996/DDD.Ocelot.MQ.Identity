@@ -1,0 +1,52 @@
+﻿<script type="text/mustache-template" id="MyReturnMoneyDetailLi">
+    {{#Orderinfo}}
+    <li style="padding-left:0px;" guid="{{Guid}}" ordernumber="{{OrderNumber}}" orderprice="{{orderPrice}}" alreadpayprice="{{AlreadPayPrice}}">
+        <div class="h1"><b>订单状态：{{StatusName}}</b></div>
+        {{#ProductList}}
+        <div class="ordpro">
+            <p class="img"><span><img src="{{OriginalImge}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'"></span></p>
+            <div class="info">
+                <h2>{{NAME}}</h2>
+                <p><span class="pri">￥{{BuyPrice}}</span> <span class="num">x{{BuyNumber}}</span></p>
+                <p class="spec">{{Attributes}}</p>
+            </div>
+        </div>
+        {{/ProductList}}
+    </li>
+    <input id="hidOrderNumber" type="hidden" value="{{OrderNumber}}" />
+    <input id="hidReturnMoney" type="hidden" value="{{AlreadPayPrice}}" />
+    {{/Orderinfo}}
+</script>
+
+
+<script type="text/mustache-template" id="MyReturnMoneyDetail">
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+        <div data-role="content" class="pt3m">
+            <div class="orderlist SelectPro">
+                <ul class="clearfix" id="ul_MyReturnMoneyList"></ul>
+                <div class="Item">
+                    <b>退款金额 ： </b><font class="fd-pale" id="ReturnMoney">￥1188.00</font>
+                </div>
+            </div>
+
+            <div class="E-Box">
+                <div class="Item fd-gray2">退款原因</div>
+                <div class="ReasonLi">
+                    <ul class="clearfix">
+                        <li class="cur"><a href="javascript:;"><b>买多了/买错了</b></a></li>
+                        <li><a href="javascript:;"><b>不想要了</b></a></li>
+                        <li><a href="javascript:;"><b>朋友买过，感觉不太好</b></a></li>
+                        <li><a href="javascript:;"><b>卖家缺货</b></a></li>
+                        <li><a href="javascript:;"><b>其他</b></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="BtnBox2 fd-tc">
+                <button class="orgbtn" id="ApplyReturnMoneyDetail">申请退款</button> <button class="orgbtn" id="NoReturn">不退了</button>
+            </div>
+        </div>
+    </div>
+    
+</script>

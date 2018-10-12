@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="payNotifyUrl.aspx.cs" Inherits="WS.EKA.Portal.tenpay.payNotifyUrl" %>

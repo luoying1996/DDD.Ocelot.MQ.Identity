@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<script src="~/Scripts/jquery-1.6.4.js" type="text/javascript"></script>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <input type="button" id="btn" value="Test" />
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btn").click(function () {
+            $.getJSON("/api/group/1",null, function (data) {
+                alert(data.Name);
+            });
+        });
+    });
+</script>

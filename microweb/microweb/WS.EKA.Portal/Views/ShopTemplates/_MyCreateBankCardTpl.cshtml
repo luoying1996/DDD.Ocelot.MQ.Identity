@@ -1,0 +1,126 @@
+﻿<script type="text/mustache-template" id="MyCreateBankCardTemplate">
+    {{>header}}
+    <div data-role="content" class="pt3m">
+        <div class="mt7m fields creabankcar">
+                <div class="field white">
+                    <div class="field_input">
+                        <label>开户银行名称:</label>
+                        <select id="sel_bankName">
+                            <option value="-1">-请选择-</option>
+                            <option value="工行">中国工商银行</option>
+                            <option value="建行">中国建设银行</option>
+                        </select>
+                        <em>*</em>
+                    </div>
+                </div>
+
+                <div class="field white">
+                    <div class="field_input">
+                        <label>开户人姓名:</label>
+                        <input type="text" id="txt_bankAccountName" />
+                         <em>*</em>
+                   </div>
+                </div>
+
+                <div class="field white">
+                    <div class="field_input">
+                        <label>银行账号:</label>
+                        <input type="text" id="txt_bankCard" />
+                         <em>*</em>
+                   </div>
+                </div>
+
+                <div class="field white">
+                    <div class="field_input">
+                        <label>确认银行账号:</label>
+                        <input type="text" id="txt_confirmBankCard" />
+                        <em>*</em>
+                    </div>
+                </div>
+
+                <div class="field white">
+                    <div class="field_input">
+                        <label>支付密码:</label>
+                        <input type="password" id="txt_payPwd" />
+                        <em>*</em>
+                    </div>
+                </div>     
+                <div class="ErrorTips" id="MyCreateBankCardTemplateError">
+                    
+                   
+                </div>          
+           </div>
+
+            <div class="fixbtn">
+                <div class="btnbox">
+                     <a class="orange field_btn" onclick="MyCreateBankCardTemplateClick();">提交</a>
+                 </div>
+            </div>
+    </div>
+</script>
+
+<script type="text/mustache-template" id="MyBankCardListTemplate">
+     <div id="header">
+        <div class="head">
+            <h1>我的银行卡</h1>
+            <a class="H-back" href="/#page/MyExtensionManager">返回</a>
+            <a style="background-size: 1.6em auto;right:1em;margin-top: 0.4em;line-height:initial;" href="/#page/MyCreateBankCard">新增</a>
+        </div>
+    </div>
+     
+    <div data-role="content" class="pt3m">
+        <div class="Smalllist">
+            <ul class="clearfix" id='MyBankCardListDom'>
+            </ul>
+        </div>
+        <div class="ordinary" id="MyBankCardListNoData" style="display: none">
+            <h2>
+                <img src="/Content/images/sntee.png" /></h2>
+            <p>对不起，您还没有任何银行卡！</p>
+        </div>
+    <nav class="nav-page" style=" margin-bottom:10%;"></nav>
+</script>
+
+
+<script type="text/mustache-template" id="MyBankCardListInnerItemTemplate">
+  
+    <li class="clearfix" cardguid="Guid">
+        <a >
+            <div class="img" style="height:2.8em"><span><img src="OriginalImge"  /></span></div>
+            <div class="text" style="height:2.8em">
+                <h4 style="height:1.4em">姓名:BankAccountName</h4>
+                <h4 style="height:1.4em">尾号:BankAccountNumber</h4>
+            </div>
+        </a>
+    </li>
+
+</script>
+
+
+<style type="text/css">
+   
+    .creabankcar .field_input input {
+        width: 55%;
+        border: 1px solid #999;
+        background: none;
+        color: #666;
+        font-size: 1em;
+        line-height: 1.44em;
+        border-radius: 4px;
+    }
+   .creabankcar  .ErrorTips {
+        color:red;
+        text-align:right;
+        margin-right:5em
+    }
+
+     .creabankcar .field_input label {
+        width: 28%;
+        float:left;
+        text-align:right;
+        margin-right:2em
+    }
+     .creabankcar  em {
+        color: red;
+    }
+</style>

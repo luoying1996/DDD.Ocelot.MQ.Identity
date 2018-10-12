@@ -1,0 +1,45 @@
+﻿<script type="text/mustache-template" id="MyCollection">
+        {{>header}}
+        <div id="jqt" data-role="page" class="wrapper">   
+             <div data-role="content" class="pt3m">
+                 <div class="W_DelItm">
+                      <a class="W_EditIcn fd-right" href="javascript:;">编辑</a>
+                      <b>共<font class="fd-pale" id="colectcount"></font>个收藏</b>
+                 </div>
+                <div class="Smalllist">     
+                <ul class="Mycollect clearfix" id="ul_CollectionList"></ul>
+               </div>
+                 <nav class="nav-page" style=" margin-bottom:10%;"></nav>
+            </div>
+      </div>
+</script>
+
+
+<script type="text/mustache-template" id="MyCollectionModelli">
+    {{#collection}}
+    <li class="clearfix" productid="{{Guid}}" shopprice="{{ShopPrice}}" name="{{Name}}">
+        <a href="/#page/ProductDetail?{{ProductGuid}}">
+            <div class="img"><span><img src="{{OriginalImge}}" /></span></div>
+            <div class="text">
+                <h4>{{Name}}</h4>
+                <p class="pri">￥{{ShopPrice}}</p>
+                <p class="num">销量 100</p>
+            </div>
+        </a>
+     <a collectid="{{Guid}}" class="W_DelIcn" style="top:5.7em;" href="javascript:;"></a>
+    </li>
+    {{/collection}}
+</script>
+
+
+<script type="text/mustache-template" id="EmptyCollectionTemplate">
+    <div class="ordinary">
+        <h2><img src="/Content/images/sntee.png" /></h2>
+        <p>对不起，你没有收藏商品！</p>
+    </div>
+</script>
+
+
+
+
+

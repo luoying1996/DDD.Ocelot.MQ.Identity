@@ -1,0 +1,262 @@
+﻿<script type="text/mustache-template" id="IndexCatalogTemplate">
+    <div data-role="content">
+        <div id="header">
+            <div class="head">
+                <h1><a class="H-search" href="/#page/ProductSearch"><em></em>搜索</a></h1>
+                <a class="H-sao" href="/#page/FirstCategory?0">分类</a>
+                <a class="H-mes" href="/#page/MyMessage">消息</a>
+            </div>
+        </div>
+       <div class="pad01">
+        <div class="swipe fd-locate">
+            <ul id="slider" class="fd-locate flash">
+                @*<li class="fd-left"><a href="#"><img src="ImgUpload/adves01.jpg"></a></li>
+                <li class="fd-left"><a href="#"><img src="ImgUpload/adves02.jpg"></a></li>
+                <li class="fd-left"><a href="#"><img src="ImgUpload/adves03.jpg"></a></li>*@
+            </ul>
+            <div id="pagenavi" class="pagenavi">
+
+            </div>
+        </div>
+        <div data-role="navbar" class="white">
+            <nav>
+                <ul class="wapapp clearfix">
+                        <li>
+                            <a href="/#page/BrandList">
+                                <p><img src="Images/IdxIcn01.png" /></p>
+                                <h2 class="fd_tc">推荐大牌</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/#page/ProductTypeList?1">
+                                <p><img src="Images/IdxIcn02.png" /></p>
+                                <h2 class="fd_tc">新品</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/#page/ProductTypeList?4">
+                                <p><img src="Images/IdxIcn03.png" /></p>
+                                <h2 class="fd_tc">推荐</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/#page/ProductTypeList?2">
+                                <p><img src="Images/IdxIcn04.png" /></p>
+                                <h2 class="fd_tc">热卖</h2>
+                            </a>
+                        </li>
+                    </ul>
+            </nav>
+        </div>
+        <div class="GlobMes clearfix">
+                <div class="dt"><img src="Images/IdxImg01.jpg" /></div>
+                <div class="dd">
+                    <em></em>
+                    <div class="txtslide">
+                        <div id="IndexAnnouncement">
+                             @*<a href="#"><h3>ShopNum1分销系统V8.1正式发布</h3></a>
+                             <a href="#"><h3>ShopNum1分销系统,以最专业的团队打造优秀的网络分销系统</h3></a>
+                             <a href="#"><h3>ShopNum1分销系统,让您的独立网店有声有色</h3></a>
+                             <a href="#"><h3>ShopNum1分销系统，为您的独立网店系统保驾护航</h3></a>
+                             <a href="#"><h3>解读ShopNum1分销系统-整合Groupfly团购系统</h3></a>
+                             <a href="#"><h3>ShopNum1分销系统，让网络分销融入我们的生活</h3></a>
+                             <a href="#"><h3>ShopNum1分销系统，最“给力”的独立分销系统</h3></a>
+                             <a href="#"><h3>功能强大的分销系统，ShopNum1分销系统为您呈现</h3></a>*@
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+           <div class="Idx-adlist1" id="IndexTop8Category">
+           
+           </div>
+
+           <div class="IdxAd" id="IndexADFirst"></div> 
+
+        <div class="Idx-floor">
+            <div class="Idx-tit"><b>今日活动</b></div>
+            <div class="Idx-adlist2">
+                <ul class="clearfix">
+                    <li class="l01"><a href="#"><img src="ImgUpload/img03.jpg"></a></li>
+                    <li class="l02"><a href="#"><img src="ImgUpload/img04.jpg"></a></li>
+                    <li class="l03"><a href="#"><img src="ImgUpload/img05.jpg"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="Idx_tj">
+                <div class="title"><b>为您推荐</b></div>
+                <div class="BigList">
+                    <ul class="clearfix" id="tuijianproductlist">
+
+                    </ul>
+                </div>
+                <div class="loadtips">
+                    <div class="end">END</div>
+                    <div class="text"><b>亲，已经看完了</b></div>
+                </div>
+            </div>
+        
+    </div>
+    </div>
+    @*{{>innerFooter}}*@
+    <div class="navfix">
+        <ul class="clearfix">
+            <li class="F-home cur"><a href="/#page/Catalog"><em></em><p>主页</p></a></li>
+            <li class="F-cate"><a href="/#page/FirstCategory?0"><em></em><p>类目</p></a></li>
+            <li class="F-cart"><a href="/#page/MyCart"><em></em><p>购物车</p></a></li>
+            <li class="F-member"><a href="/#page/MyUserInfo"><em></em><p>我的</p></a></li>
+        </ul>
+    </div>
+</script>
+<script type="text/mustache-template" id="tjspproducttemplate">
+    {{#products}}
+    <li productid="{{Guid}}" shopprice="{{ShopPrice}}">
+        <a href="javascript:void(0)">
+            <p class="collimg"><img src="{{OriginalImge}}"></p>
+            <div class="promoteCon">
+                <h3>{{Name}}</h3>
+                <p class="prite">微信价：￥{{ShopPrice}} {{UnitName}}</p>
+            </div>
+        </a>
+    </li>
+    {{/products}}
+</script>
+
+<script type="text/mustache-template" id="IndexCatalogTemplate1">
+    {{>header}}
+
+    <div data-role="content" class="bs-conten">
+        <section class="t-slide">
+            <div class="t-slide">
+                <div class="flexslider flexslider1">
+                    <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                        <ul class="slides" id="flash"></ul>
+                    </div>
+
+                    <ul class="flex-direction-nav">
+                        <li><a class="flex-prev" href="#">Previous</a></li>
+                        <li><a class="flex-next" href="#">Next</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </section>
+    <section class="subfloor subInfoNew">
+        <h2 class="floor-title">新品上架<a href="/#page/Type?1">更多&gt;&gt;</a></h2>
+        <div class="floor-cate" id="NewProductList">
+
+        </div>
+    </section>
+    <section class="subfloor subInfoRcd" id="Type1">
+        <h2 class="floor-title">推荐商品<a href="/#page/Type?4">更多&gt;&gt;</a></h2>
+        <div class="floor-cate" id="TJProductList"></div>
+    </section>
+
+    <section class="subfloor subInfoRmn" id="Type2">
+        <h2 class="floor-title">热卖商品<a href="/#page/Type?2">更多&gt;&gt;</a></h2>
+        <div class="floor-cate" id="CXProductList"></div>
+    </section>
+
+    <section class="subfloor subInfoRmn" id="Type3">
+        <h2 class="floor-title">精品推荐<a href="/#page/Type?3">更多&gt;&gt;</a></h2>
+        <div class="floor-cate" id="JPTJroductList"></div>
+    </section>
+    </div>
+
+    {{>innerFooter}}
+</script>
+
+<script type="text/mustache-template" id="newprocatagory">
+
+    {{#catagory}}
+    <dt class="cageDt" id="{{ID}}"><h2 class="fd-locate">{{Name}}<span></span></h2></dt>
+    <dd class="cageDd fd-hide">
+
+
+
+    </dd>
+    {{/catagory}}
+
+</script>
+<script type="text/mustache-template" id="newprocatagory2">
+
+    {{#catagory}}
+
+    <p class="plr12" id={{ID}}><a href="/#page/ProductList?{{ID}}">{{Name}}</a></p>
+
+
+    {{/catagory}}
+
+</script>
+
+<script type="text/mustache-template" id="IndexCatalogProductTemplate">
+
+    {{#products}}
+    <li productid="{{Guid}}" shopprice="{{ShopPrice}}">
+        <a href="javascript:void(0)">
+            <div class="img"><span><img src="{{OriginalImge}}"></span></div>
+            <div class="text">   
+                <h4 class="name">{{Name}}</h4>
+                <p class="price">￥ {{ShopPrice}} </p>
+            </div>
+        </a>
+    </li>
+    {{/products}}
+
+
+    @*    <dl productid="{{Guid}}" ShopPrice="{{ShopPrice}}">
+        <dt><a href="javascript:void(0)"><img src="{{OriginalImge}}"  onerror='this.src="/Content/Images/empty.png"'></a></dt>
+        <dd>
+        <h2><a href="javascript:void(0)">{{Name}}</a></h2>
+        <p>本店价：<mark class="">¥{{ShopPrice}}{{UnitName}}</mark></p>
+        <p>市场价：<del>¥{{MarketPrice}}</del></p>
+        </dd>
+        </dl>*@
+
+</script>
+
+<script type="text/mustache-template" id="flashTemplate">
+    {{#flashs}}
+    <li class="fd-left"><a href="{{Url}}"><img src="{{Value}}"></a></li>
+    {{/flashs}}
+</script>
+
+<script type="text/mustache-template" id="IndexSliderImageTemplate">
+    {{#Data}}
+
+    <li class="fd-left"><img src="{{Value}}" /></li>
+
+    {{/Data}}
+</script>
+
+<script type="text/mustache-template" id="IndexSliderIndexTemplate">
+    {{#Data}}
+
+    <a></a>
+
+    {{/Data}}
+</script>
+
+
+<!--首页公告-->
+<script id="IndexAnnouncementTemplate" type="text/mustache-template">
+    {{#Data}}
+
+    <a href="#"><h3>{{Title}}</h3></a>
+    {{/Data}}
+</script>
+<!--首页8个分类-->
+<script id="IndexTop8CategoryTemplate" type="text/mustache-template">
+    <ul class="clearfix">
+        {{#Data}}
+        <li><a href="/#page/ProductList?{{ID}}"><h4>{{Name}}</h4><p></p><div class="img"><span><img src="{{BackgroundImage}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'"></span></div></a></li>
+        {{/Data}}
+    </ul>
+</script>
+
+<script type="text/mustache-template" id="IndexAdTemplate">
+    {{#Data}}
+
+    <a href="{{Url}}"><img src="{{Value}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'" /></a>
+    {{/Data}}
+</script>

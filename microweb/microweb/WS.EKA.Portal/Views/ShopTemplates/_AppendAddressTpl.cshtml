@@ -1,0 +1,44 @@
+﻿<script type="text/mustache-template" id="AppendAddressTemplate">
+    {{>header}}
+
+    <div data-role="content" class="pad01">
+        <div data-role="controlgroup" class="mb7m">
+            <article>
+                <section>
+                    <div class="E-Box">
+                        <div class="Item">
+                            <input type="text" placeholder="收货人" id="txt_Name" />
+                        </div>
+                        <div class="Item">
+                            <input type="text" placeholder="手机号" pattern="[0-9]" id="txt_Mobile" />
+                        </div>
+                        <div class="fselect clearfix">
+                           <div class="farea fd-left"><select id="select_province" onchange="GetCity(); EditNewAddress();"><option value="">请选择省份</option></select><em></em></div>
+                           <div class="farea fd-right"><select id="select_city" onchange="GetArea(); EditNewAddress();"><option value="">请选择城市</option></select><em></em></div>
+                           <div class="farea fd-left"><select id="select_area" onchange="EditNewAddress();"><option value=" ">请选择地区</option></select><em></em></div>
+                       </div>
+                        
+                        <div class="Item">
+                            <input type="text" placeholder="详细地址" pattern="[0-9]" id="txt_Address" />
+                        </div>
+                    </div>
+
+                    <div class="fixbtn">
+                        <div class="btnbox">
+                           <a class="orange field_btn" onclick="AppendManageAddress()">提交</a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
+    <input type="hidden" id="txt_memberAddressId" value="" />
+</script>
+
+<script type="text/mustache-template" id="AddressOptionTemplate">
+    {{#Data}}
+
+    <option value="{{ID}}" code="{{Code}}">{{Name}}</option>
+
+    {{/Data}}
+</script>

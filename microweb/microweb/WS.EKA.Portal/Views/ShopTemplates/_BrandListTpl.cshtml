@@ -1,0 +1,33 @@
+﻿<script type="text/mustache-template" id="BrandListTemplate">
+  @*  <div id="header">
+        <div class="head">
+            <h1>品牌中心</h1>
+            <a class="H-back" href="javascript:history.back(-1);">返回</a>
+        </div>
+    </div>*@
+    {{>header}}
+
+    <div data-role="content" class="pt3m">
+        <ul class="E-Tab flex">
+            <li class="flex_div cur"><a href="javascript:;">推荐大牌</a></li>
+            <li class="flex_div"><a href="javascript:;">全部品牌</a></li>
+        </ul>
+        <div class="Brand" id="BrandList">
+
+        </div>
+    </div>
+</script>
+
+<script type="text/mustache-template" id="BrandListInfoTemplate">
+    <ul class="cur clearfix">
+        {{#CommondBrand}}
+        <li><a href="/#page/SearchList?{{Guid}}" id="brandclick"><p class="img"><img src="{{Logo}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'"></p><p>{{Name}}</p></a></li>
+        {{/CommondBrand}}
+    </ul>
+    <ul class="clearfix" style="display:none;">
+        {{#AllBrand}}
+        <li><a href="/#page/SearchList?{{Guid}}" id="brandclick"><p class="img"><img src="{{Logo}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'"></p><p>{{Name}}</p></a></li>
+        {{/AllBrand}}
+    </ul>
+</script>
+

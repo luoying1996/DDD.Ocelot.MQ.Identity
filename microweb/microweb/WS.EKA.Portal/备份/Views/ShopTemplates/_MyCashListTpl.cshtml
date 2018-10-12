@@ -1,0 +1,58 @@
+﻿
+<script type="text/mustache-template" id="MyCashListLi">
+    {{#Data}}
+    <div class="Item" bank="{{Bank}}" guid="{{Guid}}" account="{{Account}}" operatestatus="{{OperateStatus}}">
+        <h4><font class="fd-fbange fd-right">-{{OperateMoney}}</font><b>提现到银行卡</b></h4>
+        <p class="fs08 fd-gray2"><font class="fd-right">{{Date}}</font><span id="banknamenumber">中国建设银行（尾号9455）</span></p>
+    </div>
+    {{/Data}}
+</script>
+
+
+
+<script type="text/mustache-template" id="MyCashList">
+    <style>
+        /***************分页******************/
+        .fenye {
+            float: left;
+            margin-top: 10px;
+        }
+
+            .fenye ul {
+                float: left;
+                margin-left: 32px;
+            }
+
+                .fenye ul li {
+                    float: left;
+                    margin-left: 23px;
+                    padding: 4px 6px;
+                    border: 1px solid #ccc;
+                    font-weight: bold;
+                    cursor: pointer;
+                    color: #999;
+                }
+
+                    .fenye ul li a {
+                        color: #999;
+                    }
+    </style>
+
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+        <div data-role="content" class="pt3m Withdraw">
+            <div class="E-Box mt00" id="div_MyCashList">
+            </div>
+        </div>
+    </div>
+    <div class="fenye">
+        <ul>
+            <li id="first">首页</li>
+            <li id="top">上一页</li>
+            <li id="down">下一页</li>
+            <li id="last">末页</li>
+        </ul>
+
+    </div>
+    <input type="hidden" id="pageAllCount" value="0" />
+</script>

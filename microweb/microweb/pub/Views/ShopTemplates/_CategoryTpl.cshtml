@@ -1,0 +1,66 @@
+﻿<script type="text/html" id="FirstCatagoryTemplate">
+    {{>header}}  
+	   <div data-role="content" class="pad01">
+  
+
+        <div class="shopBox">
+            <div class="shopCage" style="position:relative">
+                 
+                <div class="cagelist">
+                             <dl class="cageDl" id="div_FirstCatagory">
+                             </dl>            
+                </div> 
+            </div>
+
+
+
+        </div> 
+      
+	   </div>
+
+
+       <div class="navfix">
+        <ul class="clearfix">
+            <li class="F-home"><a href="/#page/Catalog"><em></em><p>主页</p></a></li>
+            <li class="F-cate cur"><a href="/#page/FirstCategory?0"><em></em><p>类目</p></a></li>
+            <li class="F-cart"><a href="/#page/MyCart"><em></em><p>购物车</p></a></li>
+            <li class="F-member"><a href="/#page/MyUserInfo"><em></em><p>我的</p></a></li>
+        </ul>
+    </div>
+</script>
+
+<script type="text/html" id="FirstCatagoryListTemplate">
+{{#Data}}
+
+<dt class="cageDt">
+<h2 class="fd-locate" categoryid="{{ID}}" isLast="{{IsLastLevel}}">{{Name}}<span></span></h2>
+</dt>
+<dd class="cageDd fd-hide" id="dd_Catagory{{ID}}"></dd>
+
+{{/Data}}
+</script>
+
+<script type="text/html" id="SecondCatagoryListTemplate">
+{{#Data}}
+
+<div class="cageDl_sub">
+<a class="cageDl_text" href="/#page/ProductList?{{ID}}" categoryid="{{ID}}" isLast="{{IsLastLevel}}">{{Name}}<span></span></a>
+<div class="cageDl_third" id="div_Catagory{{ID}}">
+</div>
+</div>
+
+{{/Data}}
+</script>
+
+<script type="text/html" id="ThirdCatagoryListTemplate">
+{{#Data}}
+
+<a href="/#page/ProductList?{{ID}}">{{Name}}</a>
+
+{{/Data}}
+</script>
+
+
+
+
+

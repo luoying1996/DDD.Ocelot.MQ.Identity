@@ -1,0 +1,53 @@
+﻿<script type="text/mustache-template" id="MyPromotionOrderTemplate">
+     <div id="header">
+        <div class="head">
+            <h1>推广订单</h1>
+            <a class="H-back" href="/#page/MyExtensionManager">返回</a>
+            <a class="H-home" href="/#page/Catalog">首页</a>
+        </div>
+    </div>
+  
+    <div data-role="content" class="pt3m" id="MyPromotionOrderTemplateDiv">
+        <div data-role="controlgroup">
+            <div class="member_info">
+                <div class="member_menu">
+                    <ul class="flex muneli">
+                        <li t="0" class="flex_div on" id="a_a"><a>全部</a></li>
+                        <li t="1" class="flex_div"><a id="a_dfk">待付款</a></li>
+                        <li t="2" class="flex_div"><a id="a_dfh">待发货</a></li>
+                        <li t="3" class="flex_div"><a id="a_dsh">待收货</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="Myorderlist" id="MyPromotionOrderContainer">
+                
+            </ul>
+        </div>
+         <div class="NoDate" style="display:none" >
+            <div class="img"><img src="/images/NoDate-order.png"></div>
+            <h3>您还没有相关订单</h3>
+        </div>
+    </div>
+</script>
+
+
+
+<script type="text/mustache-template" id="MyPromotionOrderItem">
+    <li ordernumber="OrderNumber" guid="Guid" orderstatus="OrderStatus" paymentstatus="PaymentStatus" paytype="PayType" shipmentstatus="ShipmentStatus">
+       MyPromotionOrderItemInner
+    </li>
+</script>
+
+<script type="text/mustache-template" id="MyPromotionOrderItemInner">
+    <div class="List" productguid="ProductGuid">
+           <p class="img">
+               <span>
+                   <img src="OriginalImge" onerror="javascript: this.src = '/Content/Images/noImage.gif'" />
+               </span>
+           </p>
+           <div class="info">
+               <h2>Name</h2>
+               <p class="pricearea"><span class="pri">￥ProductPrice</span> <span class="num">xBuyNumber</span></p>
+           </div>
+       </div>
+</script>

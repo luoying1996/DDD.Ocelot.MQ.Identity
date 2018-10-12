@@ -1,0 +1,36 @@
+2017-12-21 14:37:03.5983 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-21 14:41:15.7426 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-21 14:42:12.5708 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志开始----------------------------------------
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info appid:wx256bc347404257df
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info body:ORDER201712214323259
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info mch_id:1480613602
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info nonce_str:65DED5353C5EE48D0B7D48C591B8F430
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info openid:null
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info notify_url:http://fwx.6868xp.com/PayRetrun/ZFPay/wxpay/WeiXinNotifyUrl.aspx
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info out_trade_no:201712214323259
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info spbill_create_ip:14.116.133.171
+2017-12-21 14:43:28.8465 WS.EKA.Portal.wxpay.pay.Page_Load Info total_fee:279900
+2017-12-21 14:43:28.8556 WS.EKA.Portal.wxpay.pay.Page_Load Info trade_type:JSAPI
+2017-12-21 14:43:28.8556 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:FAIL
+2017-12-21 14:43:28.8556 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:openid is invalid
+2017-12-21 14:43:28.8556 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志结束----------------------------------------
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志开始----------------------------------------
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info appid:wx256bc347404257df
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info body:ORDER201712214323259
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info mch_id:1480613602
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info nonce_str:298F95E1BF9136124592C8D4825A06FC
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info openid:null
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info notify_url:http://fwx.6868xp.com/PayRetrun/ZFPay/wxpay/WeiXinNotifyUrl.aspx
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info out_trade_no:201712214323259
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info spbill_create_ip:101.226.65.107
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info total_fee:279900
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info trade_type:JSAPI
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:FAIL
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:openid is invalid
+2017-12-21 14:47:00.2311 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志结束----------------------------------------
+2017-12-21 14:50:53.4512 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-21 14:50:58.6569 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-21 14:51:07.9553 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-21 14:53:36.5092 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-21 17:58:33.1478 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误

@@ -1,0 +1,33 @@
+﻿<script type="text/mustache-template" id="MyCommendPeopleTemplate">
+    {{>header}}
+     <div data-role="content" class="pt3m">
+        <div class="Smalllist">
+            <ul class="clearfix" id='MyCommendPeopleDom'>
+            </ul>
+        </div>
+        <div class="ordinary" id="MyCommendPeopleNoData" style="display: none">
+            <h2>
+                <img src="/Content/images/sntee.png" /></h2>
+            <p>对不起，您还没有推荐任何会员！</p>
+        </div>
+    <nav class="nav-page" style=" margin-bottom:10%;"></nav>
+ </div>  
+</script>
+<script type="text/mustache-template" id="MyCommendPeopleInnerItemTemplate">
+  
+    <li class="clearfix" productid="Guid">
+        <a href="#">
+            <div class="img"><span><img src="OriginalImge" style="width:120px" onerror="javascript: this.src = '/Content/Images/85x85.jpg'" /></span></div>
+            <div class="text">
+                <h4>姓名:Name</h4>
+                <h4>手机:Mobile</h4>
+                <h4>邮箱:Email</h4>
+            </div>
+        </a>
+    </li>
+
+</script>
+
+
+
+

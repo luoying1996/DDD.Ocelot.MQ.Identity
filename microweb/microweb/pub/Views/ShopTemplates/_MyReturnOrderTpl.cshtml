@@ -1,0 +1,80 @@
+﻿
+<script type="text/mustache-template" id="MyReturnOrderLi">
+    {{#Data}}
+    <li ordernumber="{{OrderNumber}}" guid="{{Guid}}">
+        <div class="h1">
+            <span class="fd-right">总价 <font class="fd-pale">¥ {{AlreadPayPrice}}</font></span>
+            <span>订单状态：<span class="statename">{{StatusName}}</span></span>
+        </div>
+        {{#ProductList}}
+        <div class="ordpro">
+            <a>
+                <div class="img"><span><img src="{{OriginalImge}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'" /></span></div>
+                <div class="info">
+                    <h4>{{NAME}}</h4>
+                    <p>
+                        <b class="price">￥{{BuyPrice}}</b> <span class="fd-gray">x{{BuyNumber}}</span>
+                    </p>
+                    <p class="spec">{{Attributes}}</p>
+                </div>
+            </a>
+        </div>
+        {{/ProductList}}
+    </li>
+
+    {{/Data}}
+</script>
+
+
+
+
+<script type="text/mustache-template" id="MyReturnOrder">
+    <style>
+        /***************分页******************/
+        .fenye {
+            float: left;
+            margin-top: 10px;
+        }
+
+            .fenye ul {
+                float: left;
+                margin-left: 32px;
+            }
+
+                .fenye ul li {
+                    float: left;
+                    margin-left: 23px;
+                    padding: 4px 6px;
+                    border: 1px solid #ccc;
+                    font-weight: bold;
+                    cursor: pointer;
+                    color: #999;
+                }
+
+                    .fenye ul li a {
+                        color: #999;
+                    }
+    </style>
+
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+
+        <div data-role="content" class="pt3m">
+
+            <div class="orderlist">
+                <ul class="clearfix" id="ul_ReturnOrderList"></ul>
+            </div>
+
+        </div>
+        <div class="fenye">
+            <ul>
+                <li id="first">首页</li>
+                <li id="top">上一页</li>
+                <li id="down">下一页</li>
+                <li id="last">末页</li>
+            </ul>
+
+        </div>
+        <input type="hidden" id="pageAllCount" value="0" />
+    </div>
+</script>

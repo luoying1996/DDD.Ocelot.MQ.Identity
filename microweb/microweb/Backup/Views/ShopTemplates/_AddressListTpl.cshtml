@@ -1,0 +1,43 @@
+﻿<script type="text/mustache-template" id="AddressListTemplate">
+    {{>header}}
+    <div id="AddressListWrapper">
+        <div data-role="content" class="pad01">
+            <div data-role="controlgroup" class="mt7m">
+                <article>
+                    <section>
+                        <ul class="white adres_set" id="ul_AddressList"></ul>
+                        
+                        <div class="fixbtn">
+                           <div class="btnbox">
+                             <a onclick="GoAddAddress()" class="orange field_btn">添加新地址</a>
+                           </div>
+                         </div>
+                    </section>
+                </article>
+            </div>
+        </div>
+    </div>
+
+</script>
+
+<script type="text/mustache-template" id="AddressListContentTemplate">
+    {{#Data}}
+
+    <li class="adres_omte">
+        <div class="flex">
+            <div class="flex_div deposit_all" onclick="AddressSelected('{{Guid}}')">
+                <dl class="flex deposit_name"><dt class="fd_thick">{{NAME}}</dt><dd class="fd_tr flex_div">{{Mobile}}</dd></dl>
+                <dl class="flex deposit_adre">{{{IsDefaultCss}}}<dd class="flex_div">{{Address}}</dd></dl>
+            </div>
+            <div class="deposit_drow" onclick="ManageAddressDeleteShow('{{Guid}}')"></div>
+        </div>
+        <div class="deposit_btn" id="div_selectbtn{{Guid}}">
+            <div class="flex">
+                <a class="flex_div" onclick="UpdateManageAddress('{{Guid}}')">编辑</a>
+                <a class="flex_div" onclick="RemoveManageAddress('{{Guid}}')">删除</a>
+            </div>
+        </div>
+    </li>
+
+    {{/Data}}
+</script>

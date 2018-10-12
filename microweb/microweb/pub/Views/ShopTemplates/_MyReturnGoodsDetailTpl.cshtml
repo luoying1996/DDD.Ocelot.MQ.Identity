@@ -1,0 +1,61 @@
+﻿
+<script type="text/mustache-template" id="MyReturnGoodsDetailLi">
+    {{#Orderinfo}}
+    {{#ProductList}}
+    <li guid="{{Guid}}" ordernumber="{{OrderNumber}}" orderprice="{{orderPrice}}" alreadpayprice="{{AlreadPayPrice}}">
+        <div class="SelectIcn" buyprice="{{BuyPrice}}" attributes="{{Attributes}}" orderguid="{{OrderInfoGuid}}" productguid="{{ProductGuid}}" originalimge="{{OriginalImge}}"></div>
+        <div class="ordpro">
+            <p class="img"><span><img src="{{OriginalImge}}" onerror="javascript: this.src = '/Content/Images/noImage.gif'"></span></p>
+            <div class="info">
+                <h2>{{NAME}}</h2>
+                <p><span class="pri">￥{{BuyPrice}}</span> <span class="num">x{{BuyNumber}}</span></p>
+                <p class="spec">{{Attributes}}</p>
+            </div>
+        </div>
+        <div class="editnum">
+            <a class="Reduction"><em class="reduceGoods">-</em></a>
+            <input class="inpnum" value="1" type="text" readonly="readonly" buynumber="{{BuyNumber}}">
+            <a class="Add"><em class="addGoods">+</em></a>
+        </div>
+    </li>
+    {{/ProductList}}
+    <input id="hidOrderNumber" type="hidden" value="{{OrderNumber}}" />
+    <input id="hidAlreadPayPrice" type="hidden" value="{{AlreadPayPrice}}" />
+    <input id="hidOrderGuid" type="hidden" value="{{Guid}}" />   
+    {{/Orderinfo}}
+</script>
+<script type="text/mustache-template" id="MyReturnGoodsDetail">
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+        <div data-role="content" class="pt3m">
+
+            <div class="orderlist SelectPro">
+                <ul class="clearfix" id="ul_MyReturnGoodsList"></ul>
+                <div class="Item">
+                    <b>退款金额 ： </b><font class="fd-pale" id="ReturnGoodsMoney">￥0.00</font>
+                </div>
+            </div>
+
+            <div class="E-Box">
+                <div class="Item fd-gray2">退货原因</div>
+                <div class="ReasonLi">
+                    <ul class="clearfix">
+                        <li class="cur"><a href="javascript:;"><b>买多了/买错了</b></a></li>
+                        <li><a href="javascript:;"><b>不想要了</b></a></li>
+                        <li><a href="javascript:;"><b>朋友买过，感觉不太好</b></a></li>
+                        <li><a href="javascript:;"><b>卖家缺货</b></a></li>
+                        <li><a href="javascript:;"><b>其他</b></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="BtnBox2 fd-tc">
+                <button class="orgbtn" id="ApplyReturnGoodsDetail">申请退货</button> <button class="orgbtn" id="NoReturn">不退了</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</script>

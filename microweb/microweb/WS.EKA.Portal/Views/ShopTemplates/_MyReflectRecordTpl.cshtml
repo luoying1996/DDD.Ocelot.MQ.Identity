@@ -1,0 +1,37 @@
+﻿<script type="text/mustache-template" id="MyReflectRecordTemplate">
+    {{>header}}
+  <div id="header">
+        <div class="head">
+            <h1>我的提现</h1>
+            <a class="H-back" href="/#page/MyExtensionManager">返回</a>
+            <a style="background-size: 1.6em auto;right:1em;margin-top: 0.4em;line-height:initial;" href="/#page/MyPreDepositReflect">提现</a>
+        </div>
+    </div>
+    <div data-role="content" class="pt3m">
+        <div class="Smalllist">
+            <ul class="clearfix" id='MyReflectRecordDom'>
+            </ul>
+        </div>
+        <div class="ordinary" id="MyReflectRecordNoData" style="display: none">
+            <h2>
+                <img src="/Content/images/sntee.png" /></h2>
+            <p>对不起，您还没有任何提现记录！</p>
+        </div>
+    <nav class="nav-page" style=" margin-bottom:10%;"></nav>
+ 
+</script>
+
+<script type="text/mustache-template" id="MyReflectRecordInnerItemTemplate">
+  
+    <li class="clearfix" cardguid="Guid">
+        <a href="#">
+            <div class="img" style="height:4.2em;width:9em"><span><img src="OriginalImge"  />Account</span></div>
+            <div class="text" style="height:4.2em;width:100%">
+                <h4 style="height:1.4em">时间:Date</h4>
+                <h4 style="height:1.4em">金额:OperateMoney ¥</h4>
+                <h4 style="height:1.4em">状态:OperateStatus</h4>
+            </div>
+        </a>
+    </li>
+
+</script>

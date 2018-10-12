@@ -1,0 +1,24 @@
+﻿<script type="text/mustache-template" id="MyMessageModelLi">
+    {{#messages}}
+    <li>
+        <h3>{{Title}}</h3>
+        <p class="time">来自{{SendMemLoginID}}的消息-{{CreateTime}}</p>
+        <p class="con">{{Content}}</p>
+        <a messageguid="{{Guid}}" class="W_DelIcn" href="javascript:;"></a>
+    </li>
+    {{/messages}}
+</script>
+
+<script type="text/mustache-template" id="MyMessage">
+    {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+        <div data-role="content" class="pt3m">
+            <div class="W_DelItm">
+                <a class="W_EditIcn fd-right" href="javascript:;">编辑</a>
+                 <b>共<font class="fd-pale" id="MessageCount"></font>条消息</b>
+            </div>
+            <ul class="E_mymess" id="ul_MyMessageModelList"></ul>
+
+        </div>
+    </div>
+</script>

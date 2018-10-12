@@ -1,0 +1,360 @@
+2017-12-15 10:39:21.2140 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind Error 接口异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 Newtonsoft.Json.JsonConvert.DeserializeAnonymousType[T](String value, T anonymousTypeObject)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiCheckMemLoginIDIsBind(String memLoginID) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 156
+2017-12-15 10:39:21.2560 <no type>.CallSite.Target Info 微信OpenID:
+2017-12-15 11:08:29.3745 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap Error 接口[api/GetPayMentListByPaymentType/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap(String PayMentType) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3685
+2017-12-15 11:08:29.3895 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:08:49.9711 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:10:27.1967 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap Error 接口[api/GetPayMentListByPaymentType/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap(String PayMentType) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3685
+2017-12-15 11:10:27.2778 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:20:10.1311 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:20:10.1311 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:20:10.6005 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:20:10.7357 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:20:11.0919 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:20:18.7749 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap Error 接口[api/GetPayMentListByPaymentType/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap(String PayMentType) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3685
+2017-12-15 11:20:18.7769 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:21:27.7310 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:24:41.4906 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:25:04.2112 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-12-15 11:25:08.0086 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-12-15 11:26:01.4477 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-12-15 11:27:55.2152 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:28:51.0386 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:29:01.2778 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:29:05.6477 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:30:26.8499 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+2017-12-15 11:32:09.7767 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:33:31.6815 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 45
+2017-12-15 11:34:00.7157 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.Threading.ThreadAbortException: 引发类型为“System.Threading.ThreadAbortException”的异常。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:34:17.8651 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.Threading.ThreadAbortException: 引发类型为“System.Threading.ThreadAbortException”的异常。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 11:36:12.7226 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:36:23.4423 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 11:37:04.3742 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap Error 接口[api/GetPayMentListByPaymentType/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap(String PayMentType) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3685
+2017-12-15 12:42:12.2753 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 15:09:01.8022 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 15:11:04.0574 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 15:19:07.5641 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 45
+2017-12-15 15:19:21.0754 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap Error 接口[api/GetPayMentListByPaymentType/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap(String PayMentType) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3685
+2017-12-15 15:19:26.1799 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Com.Alipay.Config.get_Partner()
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 60
+2017-12-15 15:22:02.9532 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 45
+2017-12-15 15:22:19.1108 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap Error 接口[api/GetPayMentListByPaymentType/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap(String PayMentType) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3685
+2017-12-15 15:27:23.8194 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+2017-12-15 15:27:39.7478 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 45
+2017-12-15 15:27:47.0924 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap Error 接口[api/GetPayMentListByPaymentType/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetPaymentForWap(String PayMentType) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3685
+2017-12-15 15:28:04.1077 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.TypeInitializationException: “Com.Alipay.Config”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.Config..cctor() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipayConfig.cs:行号 44
+   --- 内部异常堆栈跟踪的结尾 ---
+2017-12-15 15:29:03.3892 WS.EKA.Portal.alipay._default1.PayAlipay Info partner:2088221945942295
+2017-12-15 15:29:03.7335 WS.EKA.Portal.alipay._default1.PayAlipay Info seller_id:2088221945942295
+2017-12-15 15:29:06.1186 WS.EKA.Portal.alipay._default1.PayAlipay Info _input_charset:utf-8
+2017-12-15 15:29:06.4389 WS.EKA.Portal.alipay._default1.PayAlipay Info payment_type:1
+2017-12-15 15:29:06.7071 WS.EKA.Portal.alipay._default1.PayAlipay Info notify_url:http://fwx.6868xp.com/PayReturn/alipay/notify_url.aspx
+2017-12-15 15:29:07.2536 WS.EKA.Portal.alipay._default1.PayAlipay Info return_url:http://fwx.6868xp.com/PayReturn/alipay/call_back_url.aspx
+2017-12-15 15:29:07.6320 WS.EKA.Portal.alipay._default1.PayAlipay Info out_trade_no:201712153648087
+2017-12-15 15:29:07.9002 WS.EKA.Portal.alipay._default1.PayAlipay Info subject:订单：201712153648087...
+2017-12-15 15:29:08.1905 WS.EKA.Portal.alipay._default1.PayAlipay Info total_fee:1698.00
+2017-12-15 15:29:17.1566 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.RSAFromPkcs8.sign(String content, String privateKey, String input_charset) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\RSA.cs:行号 36
+   在 Com.Alipay.Submit.BuildRequestMysign(Dictionary`2 sPara) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 58
+   在 Com.Alipay.Submit.BuildRequestPara(SortedDictionary`2 sParaTemp) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 84
+   在 Com.Alipay.Submit.BuildRequest(SortedDictionary`2 sParaTemp, String strMethod, String strButtonValue) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 123
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 82
+2017-12-15 15:29:48.2696 WS.EKA.Portal.alipay._default1.PayAlipay Info partner:2088221945942295
+2017-12-15 15:29:49.6248 WS.EKA.Portal.alipay._default1.PayAlipay Info seller_id:2088221945942295
+2017-12-15 15:29:51.7597 WS.EKA.Portal.alipay._default1.PayAlipay Info _input_charset:utf-8
+2017-12-15 15:29:53.5584 WS.EKA.Portal.alipay._default1.PayAlipay Info payment_type:1
+2017-12-15 15:29:54.7835 WS.EKA.Portal.alipay._default1.PayAlipay Info notify_url:http://fwx.6868xp.com/PayReturn/alipay/notify_url.aspx
+2017-12-15 15:29:56.5200 WS.EKA.Portal.alipay._default1.PayAlipay Info return_url:http://fwx.6868xp.com/PayReturn/alipay/call_back_url.aspx
+2017-12-15 15:29:58.2716 WS.EKA.Portal.alipay._default1.PayAlipay Info out_trade_no:201712153648087
+2017-12-15 15:29:59.9311 WS.EKA.Portal.alipay._default1.PayAlipay Info subject:订单：201712153648087...
+2017-12-15 15:30:01.5766 WS.EKA.Portal.alipay._default1.PayAlipay Info total_fee:1698.00
+2017-12-15 15:30:19.0604 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.RSAFromPkcs8.sign(String content, String privateKey, String input_charset) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\RSA.cs:行号 36
+   在 Com.Alipay.Submit.BuildRequestMysign(Dictionary`2 sPara) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 58
+   在 Com.Alipay.Submit.BuildRequestPara(SortedDictionary`2 sParaTemp) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 84
+   在 Com.Alipay.Submit.BuildRequest(SortedDictionary`2 sParaTemp, String strMethod, String strButtonValue) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 123
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 82
+2017-12-15 15:30:28.3027 WS.EKA.Portal.alipay._default1.PayAlipay Info partner:2088221945942295
+2017-12-15 15:30:28.3027 WS.EKA.Portal.alipay._default1.PayAlipay Info seller_id:2088221945942295
+2017-12-15 15:30:28.3027 WS.EKA.Portal.alipay._default1.PayAlipay Info _input_charset:utf-8
+2017-12-15 15:30:28.3027 WS.EKA.Portal.alipay._default1.PayAlipay Info payment_type:1
+2017-12-15 15:30:28.3027 WS.EKA.Portal.alipay._default1.PayAlipay Info notify_url:http://fwx.6868xp.com/PayReturn/alipay/notify_url.aspx
+2017-12-15 15:30:28.3027 WS.EKA.Portal.alipay._default1.PayAlipay Info return_url:http://fwx.6868xp.com/PayReturn/alipay/call_back_url.aspx
+2017-12-15 15:30:28.3027 WS.EKA.Portal.alipay._default1.PayAlipay Info out_trade_no:201712153648087
+2017-12-15 15:30:28.3087 WS.EKA.Portal.alipay._default1.PayAlipay Info subject:订单：201712153648087...
+2017-12-15 15:30:28.3087 WS.EKA.Portal.alipay._default1.PayAlipay Info total_fee:1698.00
+2017-12-15 15:31:36.0728 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.RSAFromPkcs8.sign(String content, String privateKey, String input_charset) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\RSA.cs:行号 36
+   在 Com.Alipay.Submit.BuildRequestMysign(Dictionary`2 sPara) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 58
+   在 Com.Alipay.Submit.BuildRequestPara(SortedDictionary`2 sParaTemp) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 84
+   在 Com.Alipay.Submit.BuildRequest(SortedDictionary`2 sParaTemp, String strMethod, String strButtonValue) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 123
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 82
+2017-12-15 15:31:39.5329 WS.EKA.Portal.alipay._default1.PayAlipay Info partner:2088221945942295
+2017-12-15 15:31:39.5329 WS.EKA.Portal.alipay._default1.PayAlipay Info seller_id:2088221945942295
+2017-12-15 15:31:39.5329 WS.EKA.Portal.alipay._default1.PayAlipay Info _input_charset:utf-8
+2017-12-15 15:31:39.5329 WS.EKA.Portal.alipay._default1.PayAlipay Info payment_type:1
+2017-12-15 15:31:39.5329 WS.EKA.Portal.alipay._default1.PayAlipay Info notify_url:http://fwx.6868xp.com/PayReturn/alipay/notify_url.aspx
+2017-12-15 15:31:39.5329 WS.EKA.Portal.alipay._default1.PayAlipay Info return_url:http://fwx.6868xp.com/PayReturn/alipay/call_back_url.aspx
+2017-12-15 15:31:39.5329 WS.EKA.Portal.alipay._default1.PayAlipay Info out_trade_no:201712153648087
+2017-12-15 15:31:39.5429 WS.EKA.Portal.alipay._default1.PayAlipay Info subject:订单：201712153648087...
+2017-12-15 15:31:39.5429 WS.EKA.Portal.alipay._default1.PayAlipay Info total_fee:1698.00
+2017-12-15 15:32:15.3972 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.RSAFromPkcs8.sign(String content, String privateKey, String input_charset) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\RSA.cs:行号 36
+   在 Com.Alipay.Submit.BuildRequestMysign(Dictionary`2 sPara) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 58
+   在 Com.Alipay.Submit.BuildRequestPara(SortedDictionary`2 sParaTemp) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 84
+   在 Com.Alipay.Submit.BuildRequest(SortedDictionary`2 sParaTemp, String strMethod, String strButtonValue) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 123
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 82
+2017-12-15 15:32:17.7033 WS.EKA.Portal.alipay._default1.PayAlipay Info partner:2088221945942295
+2017-12-15 15:32:17.7033 WS.EKA.Portal.alipay._default1.PayAlipay Info seller_id:2088221945942295
+2017-12-15 15:32:17.7033 WS.EKA.Portal.alipay._default1.PayAlipay Info _input_charset:utf-8
+2017-12-15 15:32:17.7033 WS.EKA.Portal.alipay._default1.PayAlipay Info payment_type:1
+2017-12-15 15:32:17.7033 WS.EKA.Portal.alipay._default1.PayAlipay Info notify_url:http://fwx.6868xp.com/PayReturn/alipay/notify_url.aspx
+2017-12-15 15:32:17.7033 WS.EKA.Portal.alipay._default1.PayAlipay Info return_url:http://fwx.6868xp.com/PayReturn/alipay/call_back_url.aspx
+2017-12-15 15:32:17.7033 WS.EKA.Portal.alipay._default1.PayAlipay Info out_trade_no:201712153648087
+2017-12-15 15:32:17.7033 WS.EKA.Portal.alipay._default1.PayAlipay Info subject:订单：201712153648087...
+2017-12-15 15:32:17.7033 WS.EKA.Portal.alipay._default1.PayAlipay Info total_fee:1698.00
+2017-12-15 15:33:52.6899 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.RSAFromPkcs8.sign(String content, String privateKey, String input_charset) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\RSA.cs:行号 36
+   在 Com.Alipay.Submit.BuildRequestMysign(Dictionary`2 sPara) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 58
+   在 Com.Alipay.Submit.BuildRequestPara(SortedDictionary`2 sParaTemp) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 84
+   在 Com.Alipay.Submit.BuildRequest(SortedDictionary`2 sParaTemp, String strMethod, String strButtonValue) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 123
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 82
+2017-12-15 15:38:32.6682 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 45
+2017-12-15 15:39:28.1662 WS.EKA.Portal.alipay._default1.PayAlipay Info partner:2088221945942295
+2017-12-15 15:39:28.1683 WS.EKA.Portal.alipay._default1.PayAlipay Info seller_id:2088221945942295
+2017-12-15 15:39:28.1683 WS.EKA.Portal.alipay._default1.PayAlipay Info _input_charset:utf-8
+2017-12-15 15:39:28.1683 WS.EKA.Portal.alipay._default1.PayAlipay Info payment_type:1
+2017-12-15 15:39:28.1683 WS.EKA.Portal.alipay._default1.PayAlipay Info notify_url:http://fwx.6868xp.com/PayReturn/alipay/notify_url.aspx
+2017-12-15 15:39:28.1683 WS.EKA.Portal.alipay._default1.PayAlipay Info return_url:http://fwx.6868xp.com/PayReturn/alipay/call_back_url.aspx
+2017-12-15 15:39:28.1683 WS.EKA.Portal.alipay._default1.PayAlipay Info out_trade_no:201712153648087
+2017-12-15 15:39:28.1933 WS.EKA.Portal.alipay._default1.PayAlipay Info subject:订单：201712153648087...
+2017-12-15 15:39:28.1933 WS.EKA.Portal.alipay._default1.PayAlipay Info total_fee:1698.00
+2017-12-15 15:39:45.1275 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.RSAFromPkcs8.sign(String content, String privateKey, String input_charset) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\RSA.cs:行号 36
+   在 Com.Alipay.Submit.BuildRequestMysign(Dictionary`2 sPara) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 58
+   在 Com.Alipay.Submit.BuildRequestPara(SortedDictionary`2 sParaTemp) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 84
+   在 Com.Alipay.Submit.BuildRequest(SortedDictionary`2 sParaTemp, String strMethod, String strButtonValue) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 123
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 82
+2017-12-15 15:39:47.1964 WS.EKA.Portal.alipay._default1.PayAlipay Info partner:2088221945942295
+2017-12-15 15:39:47.1964 WS.EKA.Portal.alipay._default1.PayAlipay Info seller_id:2088221945942295
+2017-12-15 15:39:47.1964 WS.EKA.Portal.alipay._default1.PayAlipay Info _input_charset:utf-8
+2017-12-15 15:39:47.1964 WS.EKA.Portal.alipay._default1.PayAlipay Info payment_type:1
+2017-12-15 15:39:47.1994 WS.EKA.Portal.alipay._default1.PayAlipay Info notify_url:http://fwx.6868xp.com/PayReturn/alipay/notify_url.aspx
+2017-12-15 15:39:47.1994 WS.EKA.Portal.alipay._default1.PayAlipay Info return_url:http://fwx.6868xp.com/PayReturn/alipay/call_back_url.aspx
+2017-12-15 15:39:47.1994 WS.EKA.Portal.alipay._default1.PayAlipay Info out_trade_no:201712153648087
+2017-12-15 15:39:47.1994 WS.EKA.Portal.alipay._default1.PayAlipay Info subject:订单：201712153648087...
+2017-12-15 15:39:47.1994 WS.EKA.Portal.alipay._default1.PayAlipay Info total_fee:1698.00
+2017-12-15 15:41:14.2068 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.RSAFromPkcs8.sign(String content, String privateKey, String input_charset) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\RSA.cs:行号 36
+   在 Com.Alipay.Submit.BuildRequestMysign(Dictionary`2 sPara) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 58
+   在 Com.Alipay.Submit.BuildRequestPara(SortedDictionary`2 sParaTemp) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 84
+   在 Com.Alipay.Submit.BuildRequest(SortedDictionary`2 sParaTemp, String strMethod, String strButtonValue) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 123
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 82
+2017-12-15 15:42:27.1916 WS.EKA.Portal.alipay._default1.PayAlipay Info partner:2088221945942295
+2017-12-15 15:42:27.2146 WS.EKA.Portal.alipay._default1.PayAlipay Info seller_id:2088221945942295
+2017-12-15 15:42:27.2146 WS.EKA.Portal.alipay._default1.PayAlipay Info _input_charset:utf-8
+2017-12-15 15:42:27.2146 WS.EKA.Portal.alipay._default1.PayAlipay Info payment_type:1
+2017-12-15 15:42:27.2146 WS.EKA.Portal.alipay._default1.PayAlipay Info notify_url:http://localhost:6428/PayReturn/alipay/notify_url.aspx
+2017-12-15 15:42:27.2146 WS.EKA.Portal.alipay._default1.PayAlipay Info return_url:http://localhost:6428/PayReturn/alipay/call_back_url.aspx
+2017-12-15 15:42:27.2146 WS.EKA.Portal.alipay._default1.PayAlipay Info out_trade_no:201712153648087
+2017-12-15 15:42:27.2146 WS.EKA.Portal.alipay._default1.PayAlipay Info subject:订单：201712153648087...
+2017-12-15 15:42:27.2146 WS.EKA.Portal.alipay._default1.PayAlipay Info total_fee:1698.00
+2017-12-15 15:42:48.4037 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.RSAFromPkcs8.sign(String content, String privateKey, String input_charset) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\RSA.cs:行号 36
+   在 Com.Alipay.Submit.BuildRequestMysign(Dictionary`2 sPara) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 58
+   在 Com.Alipay.Submit.BuildRequestPara(SortedDictionary`2 sParaTemp) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 84
+   在 Com.Alipay.Submit.BuildRequest(SortedDictionary`2 sParaTemp, String strMethod, String strButtonValue) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 123
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 82
+2017-12-15 15:43:19.5678 WS.EKA.Portal.alipay._default1.PayAlipay Info partner:2088221945942295
+2017-12-15 15:43:19.5678 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 45
+2017-12-15 15:43:19.5908 WS.EKA.Portal.alipay._default1.PayAlipay Info seller_id:2088221945942295
+2017-12-15 15:43:19.5908 WS.EKA.Portal.alipay._default1.PayAlipay Info _input_charset:utf-8
+2017-12-15 15:43:19.5908 WS.EKA.Portal.alipay._default1.PayAlipay Info payment_type:1
+2017-12-15 15:43:19.5908 WS.EKA.Portal.alipay._default1.PayAlipay Info notify_url:http://fwx.6868xp.com/PayReturn/alipay/notify_url.aspx
+2017-12-15 15:43:19.5908 WS.EKA.Portal.alipay._default1.PayAlipay Info return_url:http://fwx.6868xp.com/PayReturn/alipay/call_back_url.aspx
+2017-12-15 15:43:19.5908 WS.EKA.Portal.alipay._default1.PayAlipay Info out_trade_no:201712153648087
+2017-12-15 15:43:19.5908 WS.EKA.Portal.alipay._default1.PayAlipay Info subject:订单：201712153648087...
+2017-12-15 15:43:19.5908 WS.EKA.Portal.alipay._default1.PayAlipay Info total_fee:1698.00
+2017-12-15 15:48:53.4407 WS.EKA.Portal.alipay._default1.PayAlipay Error Default页面异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Com.Alipay.RSAFromPkcs8.sign(String content, String privateKey, String input_charset) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\RSA.cs:行号 36
+   在 Com.Alipay.Submit.BuildRequestMysign(Dictionary`2 sPara) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 58
+   在 Com.Alipay.Submit.BuildRequestPara(SortedDictionary`2 sParaTemp) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 84
+   在 Com.Alipay.Submit.BuildRequest(SortedDictionary`2 sParaTemp, String strMethod, String strButtonValue) 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\app_code\AlipaySubmit.cs:行号 123
+   在 WS.EKA.Portal.alipay._default1.PayAlipay() 位置 E:\web\门户微信商城811\分销商\WS.EKA.Portal\PayReturn\ZFPay\alipay\default.aspx.cs:行号 82
+2017-12-15 19:16:02.2686 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-12-15 19:16:20.3359 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志开始----------------------------------------
+2017-12-15 19:16:20.3359 WS.EKA.Portal.wxpay.pay.Page_Load Info appid:wx256bc347404257df
+2017-12-15 19:16:20.3359 WS.EKA.Portal.wxpay.pay.Page_Load Info body:ORDER201712153648087
+2017-12-15 19:16:20.3359 WS.EKA.Portal.wxpay.pay.Page_Load Info mch_id:1480613602
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info nonce_str:F61D6947467CCD3AA5AF24DB320235DD
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info openid:oyq49xM1xj_UkxzqLDU9cLRyyz_k
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info notify_url:http://fwx.6868xp.com/PayRetrun/ZFPay/wxpay/WeiXinNotifyUrl.aspx
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info out_trade_no:201712153648087
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info spbill_create_ip:14.116.133.169
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info total_fee:169800
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info trade_type:JSAPI
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:SUCCESS
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:OK
+2017-12-15 19:16:20.3399 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志结束----------------------------------------
+2017-12-15 19:16:29.1038 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志开始----------------------------------------
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info appid:wx256bc347404257df
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info body:ORDER201712153648087
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info mch_id:1480613602
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info nonce_str:16C222AA19898E5058938167C8AB6C57
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info openid:oyq49xM1xj_UkxzqLDU9cLRyyz_k
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info notify_url:http://fwx.6868xp.com/PayRetrun/ZFPay/wxpay/WeiXinNotifyUrl.aspx
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info out_trade_no:201712153648087
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info spbill_create_ip:58.247.212.98
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info total_fee:169800
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info trade_type:JSAPI
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:SUCCESS
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info XMLValue:OK
+2017-12-15 19:16:29.1048 WS.EKA.Portal.wxpay.pay.Page_Load Info ---------------------------------日志结束----------------------------------------
+2017-12-15 19:17:44.2285 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误

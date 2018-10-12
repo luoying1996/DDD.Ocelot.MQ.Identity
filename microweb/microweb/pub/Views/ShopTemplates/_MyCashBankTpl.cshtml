@@ -1,0 +1,30 @@
+﻿<script type="text/mustache-template" id="MyCashBankLi">
+    {{#Data}}
+    <li guid="{{Guid}}" bankname="{{BankName}}" bankaccountnumber="{{BankAccountNumber}}" bankaccountname="{{BankAccountName}}"><a href="javascript:;"><span class="mybank"></span><span class="fd-gray fs08"></span></a><div class="edit">操作</div></li>
+    {{/Data}}
+</script>
+
+
+
+<script type="text/mustache-template" id="MyCashBank">
+    <div id="jqt" data-role="page" class="wrapper">
+        <div id="header">
+            <div class="head">
+                <h1>提现明细</h1>
+                <a class="H-back" href="javascript:history.back(-1);">返回</a>
+                <a href="javascript:;" class="H-text J-edit">管理</a>
+            </div>
+        </div>
+        <div data-role="content" class="pt3m Withdraw">
+            <ul class="clearfix" id="ul_MyCashBankList">
+
+                @*<li><a href="javascript:;">中国工商银行<span class="fd-gray fs08">(尾号1926)</span></a><div class="edit">操作</div></li>
+                    <li><a href="javascript:;">支付宝快捷支付<span class="fd-gray fs08">(138****2546)</span></a><div class="edit">操作</div></li>*@
+            </ul>
+            <div class="mt3m pdrd">
+                <a href="/#page/MyCashAdd" class="orange field_btn">新增提现方式</a>
+            </div>
+        </div>
+
+    </div>
+</script>

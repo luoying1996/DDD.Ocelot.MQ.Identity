@@ -1,0 +1,38 @@
+﻿<script type="text/mustache-template" id="MyCash"> 
+    <div id="jqt" data-role="page" class="wrapper">
+
+        <div id="header">
+            <div class="head">
+                <h1>提现</h1>
+                <a class="H-back" href="javascript:history.back(-1);">返回</a>
+                <a href="/#page/MyCashList" class="H-text">提现明细</a>
+            </div>
+        </div>
+        <div data-role="content" class="pt3m Withdraw">
+            <div class="E-Box mt00">
+                <div class="Item">
+                    <a class="chosebank"><b class="bankname">请选择</b><span class="fd-gray2 fs08"></span></a>
+                </div>
+            </div>
+            <div class="h3">账户余额：￥<a id="MyMoney">852.00</a>，本次最多转出￥<a id="MyMoney1">852.00</a>元。</div>
+            <div class="E-Box mt00">
+                <div class="Item clearfix">
+                    <label>提现金额</label>
+                    <div class="dd"><input id="CashMoney" type="text" value="" /></div>
+                </div>
+            </div>
+            <div class="E-Box">
+                <div class="Item clearfix">
+                    <label>备注</label>
+                    <div class="dd"><input type="text" id="remark"/></div>
+                </div>
+            </div>
+
+            <div class="mt3m pdrd">
+                <a href="javascript:void(0)" class="orange field_btn" id="CashMoneyClick">申请提现</a>
+            </div>
+
+        </div>
+
+    </div>
+</script>

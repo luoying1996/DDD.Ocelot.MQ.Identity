@@ -1,0 +1,183 @@
+﻿<script type="text/mustache-template" id="MyInfoTemplate">
+    {{>header}}
+    <div data-role="content" class="pad01">
+        <div class="MemBg">
+            <div class="MemInfo clearfix">
+                <div class="MemImg"><a href="/#page/MyInformation"><img id="MemPhoto" src="/ImgUpload/phote.jpg" /></a></div>
+                <div class="MemName">
+                    <h4><b id="MemLoginID"></b><a href="/#page/MyAdvancePayment">充值/提现</a></h4>
+                    <p>
+                        <span><a href="/#page/MyAdvancePayment">预存款：<font id="AdvancePayment">{{AdvancePayment}}元</font></a></span>
+                        <span> <a href="/#page/MyScoreDetail">积分：<font id="Score">{{Score}}</font></a></span>
+                    </p>
+                </div>
+                <a class="MemGo" href="/#page/MyInformation"></a>
+            </div>
+        </div>
+        <!--MemBg end-->
+        <div class="MemOrder">
+            <ul class="clearfix">
+                <li><a ordertype="1" id="a_pfk" href="/#page/MyOrder"><em><img src="../../images/MemIcn01.png" /></em></a></li>
+                <li><a ordertype="2" id="a_pfh" href="/#page/MyOrder"><em><img src="../../images/MemIcn02.png" /></em></a></li>
+                <li><a ordertype="3" id="a_psh" href="/#page/MyOrder"><em><img src="../../images/MemIcn03.png" /></em></a></li>
+                <li><a ordertype="4" id="a_ppj" href="/#page/MyOrder"><em><img src="../../images/MemIcn04.png" /></em></a></li>
+                <li><a id="a_ptkh" href="/#page/MyReturnOrder"><em><img src="../../images/MemIcn05.png" /></em></a></li>
+            </ul>
+        </div><!--MemOrder end-->
+        <div class="E-Box">
+            <div class="Item">
+                <a href="/#page/MyOrder" onclick="localStorage.setItem('orderType', '0');">
+                    <b>全部订单</b>
+                </a>
+            </div>
+            <div class="Item">
+                <a href="/#page/MyCollection">
+                    <b>我的收藏</b>
+                </a>
+            </div>
+            <div class="Item">
+                <a href="/#page/MyDisplay">
+                    <b>去晒单</b>
+                </a>
+            </div>
+
+            <div class="Item">
+                <a href="/#page/MyRebate">
+                    <span class="fd-right">发展会员</span>
+                    <b>我的团队</b>
+                </a>
+            </div>
+
+            <div class="Item">
+                <a href="/#page/AddressList?0">
+                    <b>管理收货地址</b>
+                </a>
+            </div>
+
+            <div class="Item">
+                <a href="/#page/MyMessage">
+                    <b>我的消息</b>
+                </a>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="navfix">
+        <ul class="clearfix">
+            <li class="F-home"><a href="/#page/Catalog"><em></em><p>主页</p></a></li>
+            <li class="F-cate"><a href="/#page/FirstCategory?0"><em></em><p>类目</p></a></li>
+            <li class="F-cart"><a href="/#page/MyCart"><em></em><p>购物车</p></a></li>
+            <li class="F-member cur"><a href="/#page/MyUserInfo"><em></em><p>我的</p></a></li>
+        </ul>
+    </div>
+
+</script>
+
+<script id="LoginTemplate" type="text/mustache-template">
+    {{>header}}
+    <div data-role="content" class="pt3m">
+        <div class="mt7m fields">
+            <div class="field white"><div class="field_input"><input type="text" id="UserName" placeholder="用户名/手机/邮箱" autocomplete="off" /></div></div>
+            <div class="field white"><div class="field_input"><input type="password" id="Password" placeholder="密码" autocomplete="off" /></div></div>
+            <div class="ErrorTips" id="loginError"></div>
+        </div>
+        <div class="pd1m">
+
+            <div class="mt1m pdrd">
+                <a href="javascript:void(0)" class="orange field_btn" id="loginBtn">登录并绑定</a>
+            </div>
+            <div class="fd_tc rememtip">
+                还没有账号？<a href="/#page/Register">快速注册</a><a href="/#page/GetLostPassWord">忘记密码</a>
+            </div>
+        </div>
+    </div>
+    <div class="navfix">
+        <ul class="clearfix">
+            <li class="F-home"><a href="/#page/Catalog"><em></em><p>主页</p></a></li>
+            <li class="F-cate"><a href="/#page/FirstCategory?0"><em></em><p>类目</p></a></li>
+            <li class="F-cart"><a href="/#page/MyCart"><em></em><p>购物车</p></a></li>
+            <li class="F-member cur"><a href="/#page/MyUserInfo"><em></em><p>我的</p></a></li>
+        </ul>
+    </div>
+
+
+
+</script>
+
+<script id="RegisterTemplate" type="text/mustache-template">
+
+    <div id="RegisterOther"></div>
+
+    {{>innerFooter}}
+</script>
+
+<script id="RegisterFirstTemplate" type="text/mustache-template">
+
+	<div id="header">
+		<div class="head">
+			<h1>用户注册</h1>
+			<a class="H-back" href="javascript:history.back(-1);">返回</a>
+			<a class="H-home" href="/#page/Catalog">首页</a>
+		</div>
+	</div>
+
+	<div id="jqt" data-role="page" class="wrapper">
+		<div data-role="content" class="pt3m PersDate">
+			<div class="E-Box mt00">
+				<div class="Item">
+					<input type="text" id="r_Phone" placeholder="输入手机号" />
+					<button class="Getcode" id="GetCode">获取验证码</button>
+				</div>
+				<div class="Item">
+					<input type="text" id="VerCode" placeholder="输入验证码" />
+				</div>
+
+			</div>
+			<div class="mt3m pdrd">
+				<a href="javascript:void(0)" class="orange field_btn" id="registerFirstBtn">下一步</a>
+			</div>
+		</div>
+	</div>
+</script>
+
+<script id="RegisterSecondTemplate" type="text/mustache-template">
+
+    <div id="header">
+        <div class="head">
+            <h1>用户注册</h1>
+            <a class="H-back" href="/#page/Register">返回</a>
+            <a class="H-home" href="/#page/Catalog">首页</a>
+        </div>
+    </div>
+
+    <div id="jqt" data-role="page" class="wrapper">
+        <div data-role="content" class="pt3m PersDate">
+            <div class="E-Box mt00">
+
+                <div class="Item">
+                    <input type="password" id="r_password" placeholder="密码" />
+                </div>
+                <div class="Item">
+                    <input type="password" id="r_password_confirm" placeholder="确认密码" />
+                </div>
+                <div class="Item">
+                    <input type="text" id="r_CommendPeople" placeholder="推荐人" autocomplete="off" />
+                </div>
+
+            </div>
+            <div class="ErrorTips" id="Error"></div>
+            <div class="mt3m pdrd">
+
+                <a href="javascript:void(0)" class="orange field_btn" id="registerNextBtn">确认注册</a>
+            </div>
+        </div>
+
+        <!--反馈提示-->
+        <div class="PopTips">
+            修改成功
+        </div>
+    </div>
+</script>
+

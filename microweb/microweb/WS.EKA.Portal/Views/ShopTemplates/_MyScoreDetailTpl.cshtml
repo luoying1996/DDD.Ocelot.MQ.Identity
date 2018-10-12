@@ -1,0 +1,31 @@
+﻿<script id="ScoreDetailTemplate" type="text/mustache-template">
+<div id="jqt" data-role="page" class="wrapper">
+  {{>header}}
+  <div data-role="content" class="pt3m">
+     <div class="InteDetail" id="MyScoreDetailList">
+     </div>
+  </div>
+     <nav class="nav-page" style=" margin-bottom:10%;">
+</div>
+
+</script>
+<script id="MyScoreDetailModel" type="text/mustache-template">
+
+     {{#MyScoreDetailModel}}
+<div class="itm clearfix">
+    <div class="dt">
+        <h4>{{Memo}}</h4>
+        <p>{{Date}}</p>
+    </div>
+    <div class="dd fd-fbange">{{OperateScore}}</div>
+</div>
+     {{/MyScoreDetailModel}}
+</script>
+
+
+<script type="text/mustache-template" id="EmptyScorceDetialTemplate">
+    <div class="ordinary">
+        <h2><img src="/Content/images/sntee.png" /></h2>
+        <p>对不起，你还没有积分！</p>
+    </div>
+</script>

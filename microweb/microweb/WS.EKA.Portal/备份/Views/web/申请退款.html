@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width" />
+<title>申请退款</title>
+<link href="../../Content/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../../Content/css/index.css" rel="stylesheet" type="text/css" />
+<script src="../../Scripts/jquery-1.7.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="jqt" data-role="page" class="wrapper">
+ <div id="header">
+     <div class="head">
+        <h1>退款</h1>
+        <a class="H-back" href="javascript:history.back(-1);">返回</a>
+     </div>
+  </div>
+  
+  <div data-role="content" class="pt3m">
+    
+    <div class="orderlist SelectPro">
+         <ul class="clearfix">
+            <li>
+              <div class="SelectIcn"></div>
+              <div class="ordpro">
+                   <a href="#">
+                      <div class="img"><span><img src="../../ImgUpload/product01.jpg" /></span></div>
+                      <div class="info">
+                          <h4>VERSACE/范思哲晶钻女用香水范思哲晶钻女用香水</h4>
+                          <div class="mt7m">
+                             <b class="price">￥1000</b><span class="fd-gray">x1</span>
+                          </div>
+                      </div>
+                   </a>
+                </div>
+             </li>
+             <li>
+              <div class="SelectIcn"></div>
+              <div class="ordpro">
+                   <a href="#">
+                      <div class="img"><span><img src="../../ImgUpload/product01.jpg" /></span></div>
+                      <div class="info">
+                          <h4>VERSACE/范思哲晶钻女用香水范思哲晶钻女用香水</h4>
+                          <div class="mt7m">
+                             <b class="price">￥1000</b><span class="fd-gray">x1</span>
+                          </div>
+                      </div>
+                   </a>
+                </div>
+             </li>
+         </ul>
+         <div class="Item">
+            <b>退款金额 ： </b><font class="fd-pale">￥1188.00</font>
+         </div>
+      </div>
+    
+    <div class="E-Box">
+      <div class="Item fd-gray2">退款原因</div>
+      <div class="ReasonLi">
+        <ul class="clearfix">
+          <li class="cur"><a href="javascript:;"><b>买多了/买错了</b></a></li>
+          <li><a href="javascript:;"><b>不想要了</b></a></li>
+          <li><a href="javascript:;"><b>朋友买过，感觉不太好</b></a></li>
+          <li><a href="javascript:;"><b>卖家缺货</b></a></li>
+          <li><a href="javascript:;"><b>其他</b></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="BtnBox2 fd-tc">
+       <button class="orgbtn">申请退款</button> <button class="graybtn ml07">不退了</button>
+    </div>
+    
+  </div>
+  
+  <!--提示-->
+  <div class="" style="display:none">
+     <div class="popbg"></div>
+     <div class="RePop">
+         <div class="Rebox">
+            <h4>退款申请提交成功</h4>
+            <p>请耐心等待卖家审核</p>
+         </div>
+     </div>
+  </div>
+</div>
+<script type="text/javascript">
+  $(function(){
+     $(".SelectIcn").click(function(){
+	   $(this).toggleClass("on")
+	 })
+	 $(".ReasonLi li").click(function(){
+	    $(this).addClass("cur").siblings().removeClass("cur")
+	  })
+   })
+</script>
+</body>
+</html>

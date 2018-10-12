@@ -1,0 +1,97 @@
+﻿<script type="text/mustache-template" id="MyCartTemplate">
+ <div id="header">
+        <div class="head">
+            <h1>购物车</h1>
+            <a class="H-back" href="javascript:history.back(-1);">返回</a>
+            <a class="H-text" href="javascript:;">编辑</a>
+        </div>
+    </div>
+
+    <div data-role="content" class="pad01" id="div_MyCart">
+
+    </div>
+    <input type="hidden" id="txt_cartupdate" />
+
+    <div class="navfix">
+        <ul class="clearfix">
+            <li class="F-home"><a href="/#page/Catalog"><em></em><p>主页</p></a></li>
+            <li class="F-cate"><a href="/#page/FirstCategory?0"><em></em><p>类目</p></a></li>
+            @*<li class="F-find"><a href="#"><em></em><p>发现</p></a></li>*@
+            <li class="F-cart cur"><a href="/#page/MyCart"><em></em><p>购物车</p></a></li>
+            <li class="F-member"><a href="/#page/MyUserInfo"><em></em><p>我的</p></a></li>
+        </ul>
+    </div>
+</script>
+
+<script type="text/mustache-template" id="MyCartShowTemplate">
+ <div data-role="controlgroup" class="mb39">
+        <article>
+            <section>
+                <ul class="CartList">
+                    {{#Data}}
+
+                    <li>
+                        <span class="trolley_nselect" name="span_cartselected" cartid="{{Guid}}"></span>
+                        <div class="img"><span><img src="{{OriginalImge}}"></span></div>
+                        <div class="Info">
+
+                            <div class="dt">
+                                <h4>{{Name}}</h4>
+                                <p class="spec">{{ExtensionAttriutes}}</p>
+                                <p class="price">
+                                    <span class="fd-pale">￥<span name="span_BuyPrice">{{BuyPrice}}</span></span>
+                                </p>
+                            </div>
+
+                            <div class="dd">
+                                <dl class="archive_num">
+
+                                    <dd class="fd-locate">
+                                        <a class="incre"></a>
+                                        <input type="text" class="arche_input" value="{{BuyNumber}}" name="txt_BuyNumber" id="txt_BuyNumber{{Guid}}" onblur="CheckCartShop()" />
+                                        <a class="add"></a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <input type="hidden" name="productGuid" id="productGuid" value="{{ProductGuid}}" />
+                        <input type="hidden" name="detailSpec" id="detailSpec" value="{{DetailedSpecifications}}" />
+                    </li>
+
+                    {{/Data}}
+                </ul>
+
+            </section>
+        </article>
+    </div>
+    </div>
+
+    <div class="footline">
+        <div class="footnet">
+            <div class="select_all fd-left">全选</div>
+            <div class="Checkbox">
+                <div class="trolley_btn fd-right"><a href="javascript:GoOrder();" id="btnSubCart">结算</a></div>
+                <div class=" trolley_cet fd-right">
+                    <p class="fd-pale">总计:￥<span id="span_allprice">0</span></p>
+                    <p class="fd-gray">不含运费</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--点击编辑切换-->
+            <div class="editbox" style="display:none;">
+                <a  id="doCollect" >移到收藏夹</a>
+                <a  id="dellCart" >删除</a>
+            </div>
+        </div>
+</script>
+
+<script type="text/mustache-template" id="EmptyCartTemplate">
+
+<div class="NoDate">
+        <div class="img"><img src="/images/NoDate-cart.png"></div>
+        <h3>购物车还是空的</h3>
+        <p>去逛逛选几件喜欢的商品吧</p>
+    </div>
+ 
+</script>
+

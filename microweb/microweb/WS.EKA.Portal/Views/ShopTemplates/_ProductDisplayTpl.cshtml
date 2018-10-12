@@ -1,0 +1,82 @@
+﻿<script type="text/mustache-template" id="ProductDisplay">
+  
+<div id="jqt" data-role="page" class="wrapper">
+    {{>header}}
+  <div data-role="content" class="pad01 PersDate">
+      <div class="Myorderlist">
+          <ul class="clearfix">
+              <li>
+                  <div class="List" id="div_ProductDisplay"></div>
+                  <div class="pjarea">
+                      <textarea id="Title" placeholder="标题..."></textarea>
+                  </div>
+                  <div class="pjarea">
+                      <textarea id="Content" placeholder="购物心得200字以内..."></textarea>
+                  </div>
+                  <div class="addimg clearfix">
+                      <form id="First" method="post" enctype="multipart/form-data">
+                          <div class="item">
+                              <div class="UploadPic">
+                                  <div class="ImageName" id="ImageName1"></div>
+                                  <div class="ImagePreview"><span id="ImagePreviewFirst"></span></div>
+                                  <input class="ImageInput" name="ImageInput" value="上传图片" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" onchange="changfileFirst(this)">
+                              </div>
+                          </div>
+                      </form>
+                      <form  id="Next" method="post" enctype="multipart/form-data">
+                          <div class="item">
+                              <div class="UploadPic">
+                                  <div class="ImageName" id="ImageName2"></div>
+                                  <div class="ImagePreview"><span id="ImagePreviewNext"></span></div>
+                                  <input class="ImageInput" name="ImageInput" value="上传图片" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" onchange="changfileNext(this)">
+                              </div>
+                          </div>
+                      </form>
+                      <form  id="Last" method="post" enctype="multipart/form-data">
+                          <div class="item">
+                              <div class="UploadPic">
+                                  <div class="ImageName" id="ImageName3"></div>
+                                  <div class="ImagePreview"><span id="ImagePreviewLast"></span></div>
+                                  <input class="ImageInput" name="ImageInput" value="上传图片" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" onchange="changfileLast(this)">
+                              </div>
+
+                          </div>
+                      </form>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      <div class="fixbtn">
+          <div class="btnbox">
+              <a href="javascript:void(0)" class="orange field_btn" id="SubMitPhoto">提交</a>
+          </div>
+      </div>
+  </div>
+
+</div>
+
+    
+</script>
+
+<script type="text/mustache-template" id="MyDisplayModel">
+    {{#Product}}
+       <p class="img"><span><img src="{{OriginalImge}}"><span></span></span></p>
+        <div class="info">
+            <h2>{{Name}}</h2>
+            <p><span class="pri">￥{{ShopPrice}}</span> <span class="num">{{SaleNumber}}</span></p>
+            <p class="spec">{{ProductAttribute}}</p>
+      </div>
+    {{/Product}}
+</script>
+
+
+<script type="text/mustache-template" id="MyDisplayImage">
+    {{#Product}}
+       <p class="img"><span><img src="{{OriginalImge}}"><span></span></span></p>
+        <div class="info">
+            <h2>{{Name}}</h2>
+            <p><span class="pri">￥{{ShopPrice}}</span> <span class="num">{{SaleNumber}}</span></p>
+            <p class="spec">{{ProductAttribute}}</p>
+      </div>
+    {{/Product}}
+</script>

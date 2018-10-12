@@ -1,0 +1,42 @@
+﻿<script type="text/mustache-template" id="MyDisplay">
+     {{>header}}
+    <div id="jqt" data-role="page" class="wrapper">
+     
+      
+        <div data-role="content" class="pt3m PersDate">
+            <div class="Myorderlist">
+                <ul class="MyDisplay clearfix" id="ul_DisplayList"></ul>
+            </div>
+        </div>
+
+      <nav class="nav-page" style=" margin-bottom:10%;">
+    </div>  
+</script>
+
+
+<script type="text/mustache-template" id="MyDisplayModelli">
+    {{#orders}}
+  {{#ProductList}}
+        <li>
+            <div class="List">
+                <p class="img"><span><img src="{{OriginalImge}}"><span></span></span></p>
+                <div class="info">
+                    <h2>{{NAME}}</h2>
+                    <p><span class="pri">￥{{BuyPrice}}</span> <span class="num">x{{BuyNumber}}</span></p>
+                    <p class="spec">{{Attributes}}</p>
+                </div>
+            </div>
+            <div class="Obtn">
+               <a id="{{ProductGuid}}" class="btn1">已晒单</a>
+            </div>
+        </li>  
+    {{/ProductList}}
+    {{/orders}}
+</script>
+
+<script type="text/mustache-template" id="EmptyDisplayTemplate">
+    <div class="ordinary">
+        <h2><img src="/Content/images/sntee.png" /></h2>
+        <p>对不起，你还没有购买商品！</p>
+    </div>
+</script>

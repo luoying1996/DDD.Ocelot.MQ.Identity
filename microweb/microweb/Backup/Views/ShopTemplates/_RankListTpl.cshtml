@@ -1,0 +1,39 @@
+﻿<script type="text/html" id="RankListTemplate">
+    {{>header}}   
+    <div data-role="content" class="pt3m">
+    <div data-role="controlgroup">
+      <article>
+               <nav>
+                <ul class="flex promotRank">
+                  <li class="flex_div" id="li_flex_div1" type="1"><a>新品</a></li>
+                  <li class="flex_div" id="li_flex_div4" type="4"><a>推荐</a></li>
+                  <li class="flex_div" id="li_flex_div2" type="2"><a>热卖</a></li>
+                  <li class="flex_div" id="li_flex_div3" type="3"><a>精品</a></li>  
+                </ul>
+               </nav>
+               <section>
+                 <ul class="productList" id="ul_productList">
+                                                                                           
+                 </ul>
+               </section>
+      </article>          
+    </div>
+    </div>
+    {{>innerFooter}}
+</script>
+
+<script type="text/html" id="RankListDetailTemplate">
+{{#Data}}
+
+<li>
+<a class="white" href="/#page/ProductDetail?{{Guid}}">
+<p class="collimg"><img src="{{OriginalImge}}"></p>
+<div class="promoteShop">
+<p class="price">￥{{ShopPrice}} {{UnitName}}</p>
+<p class="promotorly"></p>
+</div>
+</a>
+</li>
+                    
+{{/Data}}
+</script>

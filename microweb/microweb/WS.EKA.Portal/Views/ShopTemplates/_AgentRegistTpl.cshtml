@@ -1,0 +1,63 @@
+﻿<script type="text/mustache-template" id="AgentRegistTemplate">
+{{>header}}
+
+<div data-role="content" class="pt3m">
+<div class="mt4m">
+<div class="agentRegist">
+<div class="item">
+<span><em class="user"></em></span>
+<div class="inputBox">
+<input class="bx_input" placeholder="姓名" type="text" id="r_Name" />
+</div>
+</div>
+<div class="item">
+<span><em class="user"></em></span>
+<div class="inputBox">
+<input class="bx_input" placeholder="用户名/手机/邮箱" type="text" id="r_userName"/>
+</div>
+</div>
+<div class="item">
+<span><em class="pswd"></em></span>
+<div class="inputBox">
+<input class="bx_input" placeholder="登录密码" type="password" id="r_password"/>
+</div>
+</div>
+<div class="item">
+<span><em class="pswd"></em></span>
+<div class="inputBox">
+<input class="bx_input" placeholder="重复登录密码" type="password" id="r_password_confirm"/>
+</div>
+</div>
+<div class="item">
+<span><em class="email"></em></span>
+<div class="inputBox">
+<input class="bx_input" placeholder="邮箱" type="text" id="r_email"/>
+</div>
+</div>
+<div class="item">
+<span><em class="location"></em></span>
+<!--<div class="inputBox">
+<a class="locationBox" href="">所在地</a>
+</div>-->
+<div class="selectBox">
+<select id="select_province" onchange="GetCity()" name="s_province"><option value="">选择省份</option></select>
+<select id="select_city" onchange="GetArea()" name="s_city" ><option value="">选择城市</option></select>
+<select id="select_area" name="s_county"><option value="">选择地区</option></select>
+</div>
+</div>
+
+
+</div>
+</div>
+<div class="pd1m">
+	
+<div class="mt1m pdrd">
+<a onclick="AgentRegist()" class="orange field_btn">提交</a>
+</div>
+
+</div> 
+</div> 
+
+{{>innerFooter}}
+</script>
+

@@ -1,0 +1,1512 @@
+2017-10-27 10:38:55.9594 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-27 12:47:40.3482 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 12:47:40.3552 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xIv4se1pT3xFCOTjMjQTyHQ
+2017-10-27 12:47:40.3552 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 12:47:40.3552 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 12:47:44.4749 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 12:47:48.4164 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-27 12:48:03.5651 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 12:48:04.0315 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-10-27 12:48:08.4335 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 12:48:08.5997 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-10-27 12:48:14.6422 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 12:48:14.7532 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-10-27 12:48:19.1231 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 12:48:19.2352 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-10-27 13:09:28.7111 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:28.7171 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:28.7171 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:28.7171 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:32.9989 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:36.6482 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-27 13:09:37.1587 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:37.1587 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:37.1587 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:37.1587 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:37.1657 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:37.3048 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:37.3058 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:37.3058 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:37.3058 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:37.3058 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:37.6741 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:37.6741 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:37.6741 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:37.6741 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:37.6822 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:37.8262 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:37.8262 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:37.8262 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:37.8262 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:37.8262 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:37.9774 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:37.9784 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:37.9784 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:37.9784 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:37.9784 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:38.1155 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:38.1155 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:38.1155 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:38.1155 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:38.1215 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:38.2776 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:38.2776 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:38.2776 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:38.2776 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:38.2776 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:38.4178 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:38.4178 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:38.4178 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:38.4178 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:38.4178 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:38.5499 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:38.5499 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:38.5499 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:38.5499 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:38.5579 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:38.6981 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:38.6981 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:38.6981 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:38.6981 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:38.6981 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:38.8352 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:38.8352 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:38.8372 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:38.8372 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:38.8372 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:38.9783 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:38.9783 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:38.9783 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:38.9783 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:38.9783 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:39.1374 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:39.1374 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:39.1374 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:39.1374 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:39.1374 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:39.2986 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:39.2986 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:39.2986 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:39.2986 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:39.2986 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:39.5538 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:39.5538 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:39.5538 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:39.5558 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:39.5558 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:39.6649 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:39.6660 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:39.6660 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:39.6660 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:39.6660 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:39.7861 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:39.7861 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:39.7861 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:39.7861 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:39.7940 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:39.9051 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:39.9051 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:39.9051 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:39.9051 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:39.9051 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:40.0303 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:40.0303 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:40.0303 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:40.0303 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:40.0303 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:40.1774 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:40.1774 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:40.1774 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:40.1774 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:40.1844 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:40.4356 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:40.4356 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:40.4356 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:40.4356 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:40.4356 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:40.5857 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:40.5857 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:40.5857 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:40.5877 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:40.5877 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:40.7379 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:40.7379 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:40.7379 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:40.7379 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:40.7449 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:40.8981 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:40.8981 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:40.8981 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:40.9001 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:40.9001 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:41.0592 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:41.0592 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:41.0592 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:41.0592 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:41.0592 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:41.2174 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:41.2174 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:41.2174 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:41.2174 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:41.2174 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:41.3775 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:41.3775 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:41.3775 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:41.3775 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:41.3775 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:41.5446 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:41.5446 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:41.5446 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:41.5446 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:41.5446 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:41.7058 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:41.7058 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:41.7058 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:41.7058 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:41.7127 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:41.8359 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:41.8359 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:41.8379 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:41.8379 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:41.8379 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:42.1382 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:42.1872 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:42.1872 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:42.1872 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:42.1872 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:42.4764 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-27 13:09:42.5866 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:42.5866 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:42.5876 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:42.5876 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:42.5876 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:42.7848 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:42.7848 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:42.7848 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:42.7848 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:42.7928 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:42.9859 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:42.9859 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:42.9859 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:42.9859 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:42.9859 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:43.1771 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:43.1771 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:43.1771 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:43.1771 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:43.1841 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:43.4173 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:43.4173 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:43.4173 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:43.4173 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:43.4173 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:43.6175 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:43.6185 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:43.6185 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:43.6185 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:43.6185 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:43.8267 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:43.8267 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:43.8267 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:43.8267 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:43.8267 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:44.0268 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:44.0268 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:44.0268 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:44.0268 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:44.0268 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:44.2180 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:44.2180 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:44.2180 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:44.2180 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:44.2180 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:44.4182 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:44.4182 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:44.4182 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:44.4182 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:44.4182 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:44.6264 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:44.6264 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:44.6264 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:44.6264 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:44.6264 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:44.8727 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:44.8727 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:44.8727 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:44.8727 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:44.8727 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:45.0578 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:45.0578 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:45.0578 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:45.0578 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:45.0578 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:45.2280 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:45.2280 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:45.2280 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:45.2280 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:45.2280 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:45.3561 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:45.3561 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:45.3561 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:45.3561 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:45.3561 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:45.4972 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:45.4972 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:45.4972 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:45.4972 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:45.4972 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:45.6353 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:45.6353 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:45.6353 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:45.6353 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:45.6353 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:45.7875 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:45.7875 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:45.7875 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:45.7875 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:45.7934 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:45.9376 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:45.9376 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:45.9376 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:45.9376 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:45.9376 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:46.0967 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:46.0967 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:46.0967 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:46.0967 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:46.1037 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:46.2409 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:46.2729 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:46.2729 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:46.2729 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:46.2789 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:46.4341 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:46.4341 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:46.4341 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:46.4341 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:46.4341 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:46.5782 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:46.5782 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:46.5782 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:46.5782 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:46.5782 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:46.7373 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:46.7373 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:46.7373 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:46.7373 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:46.7443 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:46.9065 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:46.9065 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:46.9065 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:46.9065 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:46.9065 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:47.0576 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:47.0576 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:47.0576 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:47.0576 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:47.0576 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:47.1948 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:47.1948 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:47.1968 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:47.1968 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:47.1968 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:47.3459 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:47.3459 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:47.3459 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:47.3459 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:47.3529 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:47.4970 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:47.4970 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:47.4970 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:47.4970 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:47.4970 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:47.6571 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:47.6571 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:47.6571 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:47.6571 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:47.6571 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:47.8173 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:47.8173 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:47.8173 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:47.8173 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:47.8233 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:48.3938 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:48.3938 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:48.3938 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:48.3938 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:48.3998 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:48.6830 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-27 13:09:48.7771 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:48.7771 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:48.7771 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:48.7771 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:48.7771 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:48.9373 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:48.9373 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:48.9373 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:48.9373 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:48.9373 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:49.0974 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:49.0974 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:49.0974 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:49.0974 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:49.1054 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:49.2566 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:49.2566 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:49.2566 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:49.2566 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:49.2596 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:49.3957 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:49.3957 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:49.3957 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:49.3957 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:49.4027 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:49.5378 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:49.5378 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:49.5378 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:49.5378 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:49.5438 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:49.6750 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:49.6750 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:49.6750 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:49.6750 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:49.6820 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:49.8171 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:49.8171 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:49.8171 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:49.8171 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:49.8241 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:49.9782 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:49.9782 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:49.9782 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:49.9782 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:49.9782 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:50.1464 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:50.1464 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:50.1464 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:50.1464 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:50.1534 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:50.2965 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:50.2965 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:50.2965 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:50.2965 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:50.2965 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:50.4356 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:50.4356 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:50.4356 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:50.4356 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:50.4356 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:50.5767 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:50.5767 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:50.5767 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:50.5767 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:50.5767 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:50.7460 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:50.7460 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:50.7460 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:50.7460 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:50.7460 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:50.9181 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:50.9181 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:50.9181 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:50.9181 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:50.9181 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:51.0972 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:51.0972 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:51.0972 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:51.0972 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:51.1042 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:51.2744 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:51.2744 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:51.2754 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:51.2754 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:51.2754 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:51.4575 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:51.4575 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:51.4575 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:51.4575 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:51.4646 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:51.6728 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:51.6728 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:51.6728 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:51.6728 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:51.6728 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:51.8359 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:51.8359 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:51.8359 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:51.8379 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:51.8379 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:52.0171 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:52.0171 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:52.0171 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:52.0171 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:52.0171 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:52.1932 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:52.1932 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:52.1932 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:52.1932 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:52.2002 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:52.3764 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:52.3764 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:52.3764 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:52.3764 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:52.3764 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:52.5556 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:52.5556 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:52.5566 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:52.5566 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:52.5566 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:52.7157 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:52.7157 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:52.7157 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:52.7157 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:52.7157 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:52.8768 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:52.8768 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:52.8768 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:52.8768 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:52.8768 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:53.0380 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:53.0380 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:53.0380 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:53.0380 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:53.0410 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:53.1951 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:53.1951 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:53.1951 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:53.1971 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:53.1971 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:53.3553 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:53.3553 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:53.3553 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:53.3553 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:53.3553 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:53.5145 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:53.5145 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:53.5145 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:53.5145 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:53.5145 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:53.6976 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:53.6976 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:53.6976 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:53.6976 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:53.6976 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:53.8728 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:53.8728 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:53.8728 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:53.8728 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:53.8728 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:54.0309 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:54.0309 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:54.0309 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:54.0309 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:54.0309 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:54.1951 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:54.1951 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:54.1951 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:54.1971 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:54.1971 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:54.3982 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:54.3982 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:54.3982 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:54.4003 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:54.4003 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:54.5514 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:54.5514 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:54.5514 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:54.5514 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:54.5584 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:54.7155 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:54.7155 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:54.7155 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:54.7155 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:54.7155 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:54.8746 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:54.8746 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:54.8746 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:54.8746 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:54.8746 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:55.0788 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:55.0788 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:55.0788 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:55.0788 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:55.0788 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:55.5583 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:55.5583 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:55.5583 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:55.5583 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:55.5583 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:55.7955 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:55.7955 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:55.7955 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:55.7955 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:55.7955 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:55.9947 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:55.9947 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:55.9947 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:55.9947 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:55.9947 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:56.2329 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:56.2329 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:56.2329 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:56.2329 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:56.2329 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:56.4330 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:56.4330 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:56.4330 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:56.4330 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:56.4330 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:56.6252 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:56.6252 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:56.6252 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:56.6252 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:56.6252 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:56.8304 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:56.8304 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:56.8304 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:56.8304 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:56.8375 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:57.0566 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:57.0566 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:57.0566 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:57.0566 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:57.0566 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:57.2568 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:57.2678 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:57.2678 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:57.2678 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:57.2748 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:57.5371 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:57.5371 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:57.5371 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:57.5371 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:57.5451 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:57.8173 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:57.8173 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:57.8173 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:57.8173 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:57.8253 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:58.0345 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:58.0345 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:58.0345 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:58.0345 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:58.0415 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:58.2247 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:58.2247 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:58.2247 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:58.2247 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:58.2307 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:58.4349 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:58.4349 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:58.4349 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:58.4349 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:58.4349 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:58.6651 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:58.6731 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:58.6731 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:58.6731 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:58.6731 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:58.9053 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:58.9053 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:58.9053 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:58.9053 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:58.9053 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:59.0755 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:59.0755 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:59.0755 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:59.0755 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:59.0755 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:59.3057 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:59.3067 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:59.3067 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:59.3067 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:59.3067 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:59.4968 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:59.4968 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:59.4968 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:59.4968 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:59.4968 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:59.7050 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:59.7050 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:59.7050 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:59.7050 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:59.7050 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:09:59.9132 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:09:59.9132 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:09:59.9132 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:09:59.9152 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:09:59.9152 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:00.1073 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:00.1073 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:00.1073 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:00.1073 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:00.1073 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:00.3126 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:00.3126 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:00.3126 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:00.3126 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:00.3126 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:00.5148 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:00.5148 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:00.5148 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:00.5148 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:00.5148 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:01.2344 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:01.2344 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:01.2344 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:01.2344 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:01.2344 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:01.4245 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:01.4245 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:01.4245 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:01.4245 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:01.4245 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:01.5527 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:01.5527 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:01.5527 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:01.5527 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:01.5597 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:01.6968 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:01.6968 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:01.6968 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:01.6968 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:01.6968 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:01.8570 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:01.8570 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:01.8570 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:01.8570 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:01.8570 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:02.0171 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:02.0171 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:02.0171 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:02.0171 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:02.0171 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:02.1502 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:02.1502 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:02.1502 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:02.1502 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:02.1502 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:02.2833 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:02.2833 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:02.2833 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:02.2833 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:02.2913 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:02.4255 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:02.4255 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:02.4255 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:02.4255 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:02.4315 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:02.5506 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:02.5506 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:02.5506 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:02.5506 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:02.5576 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:02.6747 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:02.6747 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:02.6747 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:02.6747 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:02.6747 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:02.8169 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:02.8358 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:02.8358 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:02.8358 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:02.8379 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:02.9770 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:02.9780 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:02.9780 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:02.9780 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:02.9780 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:03.1151 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:03.1151 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:03.1151 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:03.1151 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:03.1221 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:03.2572 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:03.2572 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:03.2572 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:03.2593 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:03.2593 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:03.4254 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:03.4254 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:03.4254 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:03.4254 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:03.4334 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:03.5775 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:03.5775 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:03.5775 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:03.5775 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:03.5775 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:03.7447 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:03.7447 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:03.7447 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:03.7447 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:03.7447 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:03.8978 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:03.8978 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:03.8978 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:03.8978 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:03.8998 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:04.0569 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:04.0569 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:04.0569 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:04.0569 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:04.0569 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:04.2171 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:04.2171 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:04.2171 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:04.2171 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:04.2171 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:04.3763 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:04.3763 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:04.3763 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:04.3763 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:04.3763 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:04.5454 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:04.5454 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:04.5454 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:04.5454 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:04.5454 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:04.6985 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:04.6985 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:04.6985 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:04.6985 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:04.6985 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:04.8346 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:04.8346 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:04.8346 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:04.8346 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:04.8417 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:04.9848 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:04.9848 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:04.9848 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:04.9848 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:04.9848 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:05.1369 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:05.1369 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:05.1369 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:05.1369 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:05.1369 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:05.2751 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:05.2751 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:05.2751 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:05.2751 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:05.2751 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:05.4161 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:05.4161 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:05.4161 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:05.4161 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:05.4161 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:05.5773 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:05.5773 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:05.5773 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:05.5773 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:05.5773 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:05.7104 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:05.7104 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:05.7104 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:05.7124 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:05.7124 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:05.8746 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:05.8746 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:05.8746 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:05.8746 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:05.8746 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:06.0167 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:06.0167 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:06.0167 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:06.0167 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:06.0167 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:06.1498 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:06.1498 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:06.1498 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:06.1498 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:06.1498 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:06.3370 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:06.3380 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:06.3380 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:06.3380 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:06.3380 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:06.4971 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:06.4971 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:06.4971 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:06.4971 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:06.4971 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:06.6353 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:06.6353 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:06.6353 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:06.6353 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:06.6353 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:06.7764 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:06.7764 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:06.7764 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:06.7764 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:06.7764 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:06.9145 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:06.9186 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:06.9186 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:06.9186 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:06.9186 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:07.0647 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:07.0647 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:07.0647 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:07.0647 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:07.0716 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:07.1897 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:07.1897 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:07.1897 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:07.1897 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:07.1978 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:07.3449 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:07.3449 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:07.3449 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:07.3449 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:07.3449 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:07.4750 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:07.4750 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:07.4750 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:07.4750 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:07.4820 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:07.6171 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:07.6171 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:07.6191 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:07.6191 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:07.6191 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:07.7773 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:07.7773 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:07.7773 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:07.7773 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:07.7773 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:07.9364 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:07.9364 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:07.9364 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:07.9364 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:07.9364 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:08.0966 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:08.0966 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:08.0966 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:08.0966 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:08.1036 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:08.2647 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:08.2647 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:08.2647 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:08.2647 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:08.2647 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:08.4249 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:08.4249 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:08.4249 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:08.4249 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:08.4309 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:08.5770 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:08.5770 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:08.5770 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:08.5770 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:08.5770 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:08.7502 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:08.7502 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:08.7502 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:08.7502 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:08.7502 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:08.8713 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:08.8713 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:08.8713 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:08.8713 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:08.8713 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:09.0164 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:09.0164 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:09.0164 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:09.0164 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:09.0164 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:09.1525 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:09.1525 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:09.1525 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:09.1525 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:09.1525 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:09.2746 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:09.2746 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:09.2746 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:09.2746 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:09.2746 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:09.4248 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:09.4248 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:09.4248 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:09.4248 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:09.4318 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:09.5499 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:09.5499 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:09.5499 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:09.5499 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:09.5569 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:09.6971 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:09.6971 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:09.6971 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:09.6971 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:09.6971 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:09.8292 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:09.8292 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:09.8292 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:09.8292 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:09.8292 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:10.0013 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:10.0013 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:10.0013 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:10.0013 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:10.0013 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:10.1454 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:10.1454 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:10.1454 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:10.1454 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:10.1524 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:10.2965 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:10.2965 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:10.2965 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:10.2965 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:10.2965 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:10.4567 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:10.4567 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:10.4567 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:10.4567 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:10.4647 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:10.5948 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:10.5948 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:10.5948 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:10.5948 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:10.5948 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:10.7450 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:10.7450 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:10.7450 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:10.7450 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:10.7450 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:10.8971 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:10.8971 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:10.8971 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:10.8971 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:10.9042 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:11.0253 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:11.0253 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:11.0253 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:11.0253 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:11.0253 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:11.2334 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:11.2334 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:11.2334 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:11.2334 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:11.2334 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:11.3765 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:11.3765 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:11.3765 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:11.3765 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:11.3845 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:11.5367 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:11.5367 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:11.5367 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:11.5367 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:11.5427 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:11.6969 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:11.6969 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:11.6969 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:11.6969 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:11.6969 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:11.8570 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:11.8570 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:11.8570 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:11.8570 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:11.8570 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:12.0241 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:12.0252 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:12.0252 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:12.0252 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:12.0252 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:12.1552 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:12.1552 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:12.1552 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:12.1552 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:12.1552 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:12.3124 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:12.3124 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:12.3124 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:12.3124 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:12.3124 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:12.4565 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:12.4565 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:12.4565 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:12.4565 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:12.4635 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:12.6166 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:12.6166 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:12.6166 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:12.6186 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:12.6186 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:12.7848 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:12.7848 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:12.7848 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:12.7848 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:12.7918 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:12.9370 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:12.9370 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:12.9370 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:12.9370 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:12.9370 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:13.1101 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:13.1101 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:13.1101 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:13.1101 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:13.1101 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:13.2573 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:13.2573 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:13.2573 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:13.2573 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:13.2593 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:13.4164 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:13.4164 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:13.4164 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:13.4164 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:13.4164 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:13.5856 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:13.5856 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:13.5856 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:13.5876 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:13.5876 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:13.7447 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:13.7447 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:13.7447 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:13.7447 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:13.7447 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:13.9209 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:13.9209 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:13.9209 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:13.9209 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:13.9209 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:14.0870 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:14.0880 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:14.0880 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:14.0880 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:14.0880 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:14.2321 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:14.2321 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:14.2321 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:14.2321 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:14.2321 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:14.3622 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:14.3622 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:14.3622 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:14.3622 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:14.3692 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:14.4934 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:14.4934 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:14.4934 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:14.4934 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:14.4934 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:14.6325 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:14.6325 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:14.6325 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:14.6345 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:14.6345 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:14.7646 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:14.7646 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:14.7646 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:14.7646 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:14.7646 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:14.8997 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:14.8997 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:14.8997 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:14.8997 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:14.8997 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:15.0418 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:15.0418 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:15.0418 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:15.0418 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:15.0418 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:15.2160 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:15.2160 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:15.2160 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:15.2160 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:15.2160 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:15.3571 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:15.3571 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:15.3571 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:15.3571 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:15.3571 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:15.4973 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:15.4973 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:15.4973 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:15.4973 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:15.4973 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:15.6214 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:15.6214 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:15.6214 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:15.6214 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:15.6214 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:15.7906 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:15.7906 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:15.7906 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:15.7906 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:15.7906 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:15.9156 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:15.9156 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:15.9156 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:15.9156 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:15.9156 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:16.0357 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:16.0357 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:16.0357 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:16.0357 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:16.0418 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:16.1929 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:16.1929 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:16.1929 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:16.1929 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:16.1989 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:16.3290 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:16.3290 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:16.3290 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:16.3290 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:16.3290 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:16.4581 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:16.4581 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:16.4581 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:16.4581 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:16.4651 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:16.5993 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:16.5993 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:16.5993 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:16.5993 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:16.6062 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:16.7304 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:16.7304 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:16.7304 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:16.7304 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:16.7304 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:16.8755 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:16.8755 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:16.8755 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:16.8755 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:16.8755 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:17.0106 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:17.0106 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:17.0106 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:17.0106 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:17.0106 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:17.1457 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:17.1457 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:17.1457 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:17.1457 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:17.1527 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:17.4280 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:17.4280 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:17.4280 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:17.4280 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:17.4350 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:17.5782 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:17.5782 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:17.5782 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:17.5782 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:17.5782 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:17.7172 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:17.7172 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:17.7172 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:17.7172 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:17.7172 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:17.8584 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:17.8584 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:17.8584 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:17.8584 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:17.8584 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:18.0186 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:18.0186 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:18.0186 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:18.0186 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:18.0255 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:18.1787 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:18.1787 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:18.1787 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:18.1787 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:18.1817 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:18.3389 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:18.3389 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:18.3389 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:18.3389 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:18.3389 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:18.4990 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:18.4990 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:18.4990 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:18.4990 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:18.4990 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:18.6591 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:18.6591 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:18.6591 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:18.6591 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:18.6661 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:18.8192 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:18.8192 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:18.8192 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:18.8192 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:18.8262 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:18.9834 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:18.9834 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:18.9834 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:18.9834 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:18.9834 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:19.1386 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:19.1386 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:19.1386 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:19.1386 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:19.1386 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:19.2987 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:19.2987 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:19.2987 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:19.2987 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:19.2987 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:19.4608 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:19.4608 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:19.4608 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:19.4608 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:19.4628 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:19.6180 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:19.6190 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:19.6190 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:19.6190 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:19.6190 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:19.7881 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:19.7881 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:19.7881 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:19.7881 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:19.7911 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:10:19.9182 WS.EKA.Portal.Controllers.AccountController.Login Info 进入微信登录
+2017-10-27 13:10:19.9182 WS.EKA.Portal.Controllers.AccountController.Login Info MemLoginID:oyq49xOqnZpEDtzzDgLK69fZsQXM
+2017-10-27 13:10:19.9182 WS.EKA.Portal.Controllers.AccountController.Login Info AgentID:晴隆站
+2017-10-27 13:10:19.9182 WS.EKA.Portal.Controllers.AccountController.Login Info Sbool:true
+2017-10-27 13:10:19.9182 WS.EKA.Portal.Helpers.CommonRequest.ApiWeiXinLogin Info 店铺：shopnum1_administrators
+2017-10-27 13:12:27.0350 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:12:30.7323 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:13:00.3741 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:13:10.2339 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:18:56.0491 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:19:12.1096 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:20:52.4282 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:21:01.2261 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:23:22.9270 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:23:41.6428 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:23:47.7834 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:26:12.8533 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:30:06.1939 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:34:03.6622 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 13:35:43.8688 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode Error 接口[api/GetMobileCode/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 操. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiGetMobileCode(String mobile) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3822
+2017-10-27 22:05:53.8516 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-27 22:07:04.8700 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-27 22:07:05.7451 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-27 22:08:25.3889 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
+2017-10-27 22:19:40.9477 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck Error 接口[api/accountuserexist/]异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: 远. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountCheck(String memLoginID) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 3863
+2017-10-27 22:19:41.3227 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin Error 接口[api/accountlogin/]异常：Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法对 null 引用执行运行时绑定
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 WS.EKA.Portal.Helpers.CommonRequest.ApiAccountLogin(Account account) 位置 C:\Users\Administrator\Desktop\分销门户微信商城程序多人打开\分销商\WS.EKA.Portal\Helpers\CommonRequest.cs:行号 72
+2017-10-27 22:19:43.3384 WS.EKA.Portal.Helpers.CommonRequest.ApiGetWeixinShopConfigList Info 接口[api/getWeixinShopConfigList/]返回值有误
